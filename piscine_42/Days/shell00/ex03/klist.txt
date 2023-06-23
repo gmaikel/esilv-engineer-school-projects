@@ -1,0 +1,5 @@
+Credentials cache: API:34B6FC46-589F-47C6-908F-585DE98A1555
+        Principal: mgali@42.FR
+
+  Issued                Expires               Principal
+Jun 28 17:15:40 2021  Jul  5 17:15:33 2021  krbtgt/42.FR@42.FR

@@ -1,0 +1,541 @@
+{"@context": {
+    "@vocab": "http://www.semanticweb.org/syrin/ontologies/2022/2/untitled-ontology-11#",
+    "@base" : "http://www.semanticweb.org/syrin/ontologies/2022/2/untitled-ontology-11/",
+    "namePlace": "namePlace",
+    "number": { "@id" : "number",
+                                 "@type" : "http://www.w3.org/2001/XMLSchema#int"},
+
+    "address" : "address" ,
+    "xCoordinate": "xCoordinate",
+    "yCoordinate":"yCoordinate"},
+
+  "records": [{
+            "namePlace": "Paul Vaillant Couturier – angle G. Péri (babou)",
+            "number": 4,
+            "address" : "71 RUE PAUL VAILLANT COUTURIER",
+            "xCoordinate": 2.2508768357057,
+            "yCoordinate": 48.9441749180342
+            },
+
+            {
+            "namePlace": "35 avenue Gabriel Péri - Poissonnerie",
+            "number": 4,
+            "address" : "35 AVENUE GABRIEL PERI",
+            "xCoordinate": 2.25066703318861,
+            "yCoordinate": 48.944421388051303
+            },
+            {
+            "namePlace": "72 avenue Gabriel Péri - poste prolongée",
+            "number": 4,
+            "address" : "72 AVENUE GABRIEL PERI",
+            "xCoordinate": 2.24984788071706,
+            "yCoordinate": 48.945709258827698
+            },
+            {
+            "namePlace": "Centre commercial Côté Seine",
+            "number": 10,
+            "address" : "AVENUE DU MARECHAL FOCH",
+            "xCoordinate": 2.2537097060158,
+            "yCoordinate": 48.943906150020297
+            },
+            {
+            "namePlace": "Poste Carême Prenant",
+            "number": 8,
+            "address" : "31 RUE CAREME PRENANT",
+            "xCoordinate": 2.25349856774612,
+            "yCoordinate":48.945066312043501
+            },
+            {
+            "namePlace": "Poste Carême Prenant",
+            "number": 8,
+            "address" : "31 RUE CAREME PRENANT",
+            "xCoordinate": 2.25349856774612,
+            "yCoordinate":48.945066312043501
+            },
+            {
+            "namePlace": "Poste du Val d'Argent Nord",
+            "number": 8,
+            "address" : "ESPLANADE DE L EUROPE",
+            "xCoordinate": 2.22595924552152,
+            "yCoordinate":48.952771316368903
+            },
+            {
+            "namePlace": "Place de la commune de Paris",
+            "number": 8,
+            "address" : "PLACE DE LA COMMUNE DE PARIS",
+            "xCoordinate":  2.22752315604935,
+            "yCoordinate":48.952930741757498
+            },
+            {
+            "namePlace": "Médiathèque R. Desnos",
+            "number": 8,
+            "address" : "ESPLANADE DE L EUROPE",
+            "xCoordinate":  2.22530422958009,
+            "yCoordinate": 48.952666767130097
+            },
+            {
+            "namePlace": "Gymnase Romain Rollands",
+            "number": 10,
+            "address" : "LYCEE ROMAIN ROLLAND",
+            "xCoordinate":  2.23350836405061,
+            "yCoordinate": 48.9533736544509
+            },
+            {
+            "namePlace": "Hôtel de ville",
+            "number": 14,
+            "address" : "BOULEVARD LEON FEIX",
+            "xCoordinate":  2.24885665082722,
+            "yCoordinate": 48.947289392012301
+            },
+            {
+            "namePlace": "Marché des Coteaux",
+            "number": 2,
+            "address" : "RUE DE LA GRANDE VOIE",
+            "xCoordinate":  2.23580691341453,
+            "yCoordinate":48.961073938463201
+            },
+            {
+            "namePlace": "Marché de la Colonie",
+            "number": 4,
+            "address" : "PLACE ARISTIDE BRIAND",
+            "xCoordinate": 2.25701604474886,
+            "yCoordinate":48.9491059995432
+            },
+            {
+            "namePlace": "Basilique Saint Denys",
+            "number": 4,
+            "address" : "RUE PAUL VAILLANT COUTURIER",
+            "xCoordinate": 2.24708593936338,
+            "yCoordinate":48.941972760242699
+            },
+
+            {
+            "namePlace": "Rue du huit Mai 1945 - en face rue des Saint Pères",
+            "number": 12,
+            "address" : "RUE DU HUIT MAI 1945",
+            "xCoordinate": 2.24796453246669,
+            "yCoordinate":48.940456474770997
+            },
+            {
+            "namePlace": "Figuier Blanc",
+            "number": 12,
+            "address" : "RUE DE L  ABBE FLEURY",
+            "xCoordinate": 2.24720245501487,
+            "yCoordinate":48.943798419406498
+            },
+            {
+            "namePlace": "Gymnase des Châtaigniers",
+            "number": 12,
+            "address" : "2 RUE CHAMPAGNE",
+            "xCoordinate": 2.25144077883689,
+            "yCoordinate":48.960880915018997
+            },
+            {
+            "namePlace": "3 place Michelet",
+            "number": 4,
+            "address" : "3 SQUARE MICHELET",
+            "xCoordinate": 2.25263628296546,
+            "yCoordinate":48.947424684913699
+            },
+            {
+            "namePlace": "23 rue Paul Vaillant Couturier",
+            "number": 4,
+            "address" : "23 RUE PAUL VAILLANT COUTURIER",
+            "xCoordinate": 2.25386685596554,
+            "yCoordinate":48.946024185844799
+            },
+            {
+            "namePlace": "Place Pierre Sémard",
+            "number": 4,
+            "address" : "BOULEVARD KARL MARX",
+            "xCoordinate": 2.25630388157765,
+            "yCoordinate": 48.9474349714148
+            },
+            {
+            "namePlace": "Médiathèque Louis Aragon et Elsa Triolet",
+            "number": 3,
+            "address" : "12 BOULEVARD LEON FEIX",
+            "xCoordinate": 2.24798284833473,
+            "yCoordinate": 48.946806411789296
+            },
+            {
+            "namePlace": "FERNAND LEGER",
+            "number": 8,
+            "address" : "ALLEE FERNAND LEGER",
+            "xCoordinate":2.22567516208376,
+            "yCoordinate": 48.952115802650603
+            },
+            {
+            "namePlace": "Hôpital Dupouy",
+            "number": 12,
+            "address" : "RUE DU LIEUTENANT COLONEL PRUDHON",
+            "xCoordinate": 2.23847701712497,
+            "yCoordinate": 48.945906115680401
+            },
+            {
+            "namePlace": "Mairie Val Notre Dame",
+            "number": 4,
+            "address" : "BOULEVARD DU GENERAL DELAMBRE",
+            "xCoordinate": 2.22369218497019,
+            "yCoordinate":  48.938760121354299
+            },
+            {
+            "namePlace": "Maison de quartier des Coteaux",
+            "number": 4,
+            "address" : "AVENUE DU MARECHAL JOFFRE / AVENUE CLEMENCEAU / RUE DU POITO",
+            "xCoordinate": 2.23959012172931,
+            "yCoordinate":  48.958170551851197
+            },
+            {
+            "namePlace": "Poste centrale Val Sud",
+            "number": 2,
+            "address" : "AVENUE MAURICE UTRILLO4",
+            "xCoordinate": 2.23346425990239,
+            "yCoordinate":  48.946837101993303
+            },
+            {
+            "namePlace": "Nelson Mandela",
+            "number": 2,
+            "address" : "",
+            "xCoordinate": 2.22742318655653,
+            "yCoordinate": 48.937723462661403
+            },
+            {
+            "namePlace": "Utrillo",
+            "number": 4,
+            "address" : "AVENUE MAURICE UTRILLO",
+            "xCoordinate":2.23237629163907,
+            "yCoordinate": 48.9471498460451
+            },
+            {
+            "namePlace": "Utrillo",
+            "number": 4,
+            "address" : "AVENUE MAURICE UTRILLO",
+            "xCoordinate":2.23351196549009,
+            "yCoordinate": 48.945875289105501
+            },
+            {
+            "namePlace": "Utrillo",
+            "number": 4,
+            "address" : "AVENUE MAURICE UTRILLO",
+            "xCoordinate":2.23351196549009,
+            "yCoordinate": 48.945875289105501
+            },
+
+            {
+            "namePlace": "Parc Maurice Audin",
+            "number": 4,
+            "address" : "ALLEE ROMAIN ROLLAND",
+            "xCoordinate":2.23037201654105,
+            "yCoordinate": 48.952573965533503
+            },
+
+            {
+            "namePlace": "Stade du Marais",
+            "number": 6,
+            "address" : "AVENUE DU PARC",
+            "xCoordinate":2.2282394693447,
+            "yCoordinate":  48.936030715801898
+            },
+            {
+            "namePlace": "Centre aquatique",
+            "number": 6,
+            "address" : "RUE DU NORD",
+            "xCoordinate":2.25611200399616,
+            "yCoordinate":  48.962301080941501
+            },
+            {
+            "namePlace": "Stade Jean Jaurès",
+            "number": 8,
+            "address" : "RUE JEAN JACQUES ROUSSEAU",
+            "xCoordinate": 2.22498540461409,
+            "yCoordinate": 48.9367839298612
+            },
+            {
+            "namePlace": "Stade Alain Mimoun",
+            "number": 14,
+            "address" : "BOULEVARD HELOISE",
+            "xCoordinate": 2.2508938347128,
+            "yCoordinate": 48.940773821760899
+            },
+            {
+            "namePlace": "Gymnase Henri Wallon",
+            "number": 6,
+            "address" : "BOULEVARD DE LA RESISTANCE",
+            "xCoordinate":  2.22615112218327,
+            "yCoordinate": 48.950459177687001
+            },
+            {
+            "namePlace": "Académie de billard",
+            "number": 5,
+            "address" : "BOULEVARD DE LA RESISTANCE",
+            "xCoordinate": 2.21961179166479,
+            "yCoordinate": 48.951826820223097
+            },
+            {
+            "namePlace": "Stade Auguste Delaune",
+            "number": 10,
+            "address" : "PLACE DES VOSGES",
+            "xCoordinate": 2.28884846574466,
+            "yCoordinate": 48.953771918533
+            },
+            {
+            "namePlace": "Stade des Courlis",
+            "number": 8,
+            "address" : "RUE DES ALLOUETTES",
+            "xCoordinate": 2.21631137227129,
+            "yCoordinate": 48.942812282800901
+            },
+            {
+            "namePlace": "Tennis Henri Burg",
+            "number": 10,
+            "address" : "RUE GOUNOD / AVENUE DU PARC",
+            "xCoordinate": 2.22944345792006,
+            "yCoordinate":48.934242914869003
+            },
+            {
+            "namePlace": "Gare d'Argenteuil Veligo",
+            "number": 36,
+            "address" : "PLACE PIERRE SEMARD",
+            "xCoordinate": 2.25642306306158,
+            "yCoordinate":48.947598643161399
+            },
+            {
+            "namePlace": "Gare du Val",
+            "number": 40,
+            "address" : "BOULEVARD DE LA RESISTANCE",
+            "xCoordinate":2.23129745561948,
+            "yCoordinate":48.950583890691497
+            },
+
+            {
+            "namePlace": "Patinoire IUT",
+            "number": 6,
+            "address" : "RUE LOUIS LHERAULT",
+            "xCoordinate": 2.23239420132074,
+            "yCoordinate":48.9494990276728
+            },
+
+            {
+            "namePlace": "Parc du cerisier",
+            "number": 6,
+            "address" : "RUE LOUIS LHERAULT",
+            "xCoordinate":  2.22059086589216,
+            "yCoordinate": 48.955358566450599
+            },
+            {
+            "namePlace": "Parc du cerisier",
+            "number": 10,
+            "address" : "RUE LOUIS LHERAULT",
+            "xCoordinate":  2.22059086589216,
+            "yCoordinate": 48.955358566450599
+            },
+            {
+            "namePlace": "Monoprix centre-ville",
+            "number": 4,
+            "address" : "BOULEVARD JEAN ALLEMANE",
+            "xCoordinate":  2.25339247748229,
+            "yCoordinate": 48.9491701229623
+            },
+            {
+            "namePlace": "28 avenue Gabriel Péri - Cofféa",
+            "number": 4,
+            "address" : "28 AVENUE GABRIEL PERI",
+            "xCoordinate":  2.25118697857413,
+            "yCoordinate":48.944195681056897
+            },
+
+            {
+            "namePlace": "46 avenue Gabriel Péri - placette",
+            "number": 4,
+            "address" : "46 AVENUE GABRIEL PERI",
+            "xCoordinate":  2.25038769464658,
+            "yCoordinate":48.945010733908198
+            },
+            {
+            "namePlace": "23 avenue Gabriel Péri - Caisse d'épargne",
+            "number": 4,
+            "address" : "23 AVENUE GABRIEL PERI",
+            "xCoordinate":   2.25149030347635,
+            "yCoordinate":  48.943591471147002
+            },
+            {
+            "namePlace": "Rue Notre Dame - face jardin Abbaye",
+            "number": 4,
+            "address" : "RUE NOTRE DAME",
+            "xCoordinate":  2.24870191506355,
+            "yCoordinate":  48.941499884647598
+            },
+            {
+            "namePlace": "Rue Notre Dame - face jardin Abbaye",
+            "number": 2,
+            "address" : "RUE NOTRE DAME",
+            "xCoordinate":  2.24870191506355,
+            "yCoordinate":  48.941499884647598
+            },
+            {
+            "namePlace": "54 rue Paul Vaillant Couturier – angle G. Péri (fleuriste)",
+            "number": 10,
+            "address" : "54 AVENUE GABRIEL PERI",
+            "xCoordinate":  2.25093943875795,
+            "yCoordinate":  48.944425757075003
+            },
+
+            {
+            "namePlace": "8 avenue Gabriel Péri",
+            "number": 4,
+            "address" : "8 AVENUE GABRIEL PERI",
+            "xCoordinate": 2.25221913811053,
+            "yCoordinate":  48.943174778032102
+            },
+            {
+            "namePlace": "14 avenue Gabriel Péri",
+            "number": 4,
+            "address" : "14 AVENUE GABRIEL PERI",
+            "xCoordinate": 2.25187573857325,
+            "yCoordinate":  48.943528282276297
+            },
+            {
+            "namePlace": "20 avenue Gabriel Péri - Lissac",
+            "number": 4,
+            "address" : "20 AVENUE GABRIEL PERI",
+            "xCoordinate":  2.25170062822495,
+            "yCoordinate":  48.9437004473209
+            },
+            {
+            "namePlace": "7 avenue Gabriel Péri",
+            "number": 4,
+            "address" : "7 AVENUE GABRIEL PERI",
+            "xCoordinate": 2.25195887467146,
+            "yCoordinate": 48.943101996873999
+            }, {
+    "namePlace": "13 avenue Gabriel Péri",
+    "address": "13 AVENUE GABRIEL PERI",
+    "number": 4,
+    "xCoordinate": 2.25182634146859,
+    "yCoordinate": 48.943232245465701
+  },
+  {
+    "namePlace": "6 rue Paul Vaillant Couturier",
+    "address": "6 RUE PAUL VAILLANT COUTURIER",
+    "number": 4,
+    "xCoordinate": 2.25395611767524,
+    "yCoordinate": 48.946189798859301
+  },
+  {
+
+    "namePlace": "67 avenue Gabriel Péri",
+    "address": "67 AVENUE GABRIEL PERI",
+    "number": 4,
+    "xCoordinate": 2.24945927463184,
+    "yCoordinate": 48.945554612370898
+  },
+  {
+
+    "namePlace": "en face du 60 boulevard Héloïse",
+    "address": "60 BOULEVARD HELOISE",
+    "number": 6,
+    "xCoordinate": 2.25079251970998,
+    "yCoordinate": 48.940966089446597
+  },
+  {
+    "namePlace": "69 rue Alfred Labrierre",
+    "address": "69 RUE ALFRED LABRIERRE",
+    "number": 0,
+    "xCoordinate": 2.25361228758887,
+    "yCoordinate": 48.948204296766299
+  },
+  {
+    "namePlace": "carrefour entre la rue Jean Jaurès et la rue du Val Notre Dame",
+    "address": "AVENUE JEAN JAURES",
+    "number": 6,
+    "xCoordinate": 2.22609905207729,
+    "yCoordinate": 48.940311543835897
+  },
+  {
+    "namePlace": "rue Henri Wallon, au droit du Conservatoire",
+    "address": "ALLE HENRI WALLON",
+    "number": 14,
+    "xCoordinate": 2.22393296809248,
+    "yCoordinate": 48.952423421269501
+  },
+  {
+    "namePlace": "44 rue Jean Borderel",
+    "address": "44 RUE JEAN BORDEREL",
+    "number": 4,
+    "xCoordinate": 2.25202269584834,
+    "yCoordinate": 48.944597883761197
+  },
+  {
+    "namePlace": "Collège Lucie Aubrac",
+    "address": "ALLEE ROMAIN ROLLAND",
+    "number": 14,
+    "xCoordinate": 2.23012742175582,
+    "yCoordinate": 48.953001003385701
+
+  },
+  {
+    "namePlace": "GARE DU VAL D ARGENT VELIGO",
+    "address": "BOULEVARD DE LA RESISTANCE",
+    "number": 30,
+    "xCoordinate": 2.23223832025085,
+    "yCoordinate": 48.950843306226297
+  },
+  {
+    "namePlace": "carrefour entre la rue Jean Jaurès et la rue du Val Notre Dame",
+    "address": "RUE DU VAL NOTRE DAME",
+    "number": 6,
+    "xCoordinate": 2.22579443347697,
+    "yCoordinate": 48.9404871533132
+  },
+  {
+    "namePlace": "PLACE CARNOT",
+    "address": "PLACE CARNOT",
+    "number": 6,
+    "xCoordinate": 2.25102575490298,
+    "yCoordinate": 48.948755856186899
+  },
+  {
+    "namePlace": "RUE VICTOR PUISEUX",
+    "address": "RUE VICTOR PUISEUX",
+    "number": 0,
+    "xCoordinate": 2.25100966164905,
+    "yCoordinate": 48.949867348551798
+  },
+  {
+    "namePlace": "Face au 46 boulevard Jean Allemane",
+    "address": "BOULEVARD JEAN ALLEMANE",
+    "number": null,
+    "xCoordinate": 2.25374976277997,
+    "yCoordinate": 48.951800589361099
+  },
+  {
+    "namePlace": "93 boulevard Jean Allemane",
+    "address": "BOULEVARD JEAN ALLEMANE",
+    "number": null,
+    "xCoordinate": 2.25537928857625,
+    "yCoordinate": 48.955551844163601
+  },
+  {
+    "namePlace": "96 boulevard Jean Allemane",
+    "address": "BOULEVARD JEAN ALLEMANE",
+    "number": null,
+    "xCoordinate": 2.25551339902701,
+    "yCoordinate": 48.955495483898602
+  },
+  {
+    "namePlace": "71 rue Paul Vaillant Couturier",
+    "address": "PAUL VAILLANT COUTURIER",
+    "number": null,
+    "xCoordinate": 2.25433047524976,
+    "yCoordinate": 48.946340297046703
+  },
+  {
+    "namePlace": "1 rue Notre Dame",
+    "address": "RUE NOTRE DAME",
+    "number": null,
+    "xCoordinate": 2.2490323438537,
+    "yCoordinate": 48.941580091504598
+  }]
+
+}

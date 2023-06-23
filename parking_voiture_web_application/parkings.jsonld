@@ -1,0 +1,238 @@
+{"@context": {
+    "@vocab": "http://www.semanticweb.org/syrin/ontologies/2022/2/untitled-ontology-11#",
+    "@base" : "http://www.semanticweb.org/syrin/ontologies/2022/2/untitled-ontology-11/",
+    "namePlace": "namePlace",
+    "number ": { "@id" : "number",
+                                 "@type" : "http://www.w3.org/2001/XMLSchema#int"},
+
+    "address" : "address" ,
+    "xCoordinate": "xCoordinate",
+    "yCoordinate":"yCoordinate"
+
+  },
+
+    "records": [{
+            "namePlace": "Provence",
+            "number": 145,
+            "address" : "5 Place de la Commune de Paris",
+            "xCoordinate": 2.23123668218402,
+            "yCoordinate": 48.954372008382997
+          },
+          {
+            "namePlace": "Paul Vaillant Couturier",
+            "number": 483,
+            "address" : "1 Esplanade Salvador Allende",
+            "xCoordinate": 2.25004236288811,
+            "yCoordinate": 48.942155250198603
+          },
+          {
+            "namePlace": "Coté Seine",
+            "number": 1360,
+            "address" : "56 Avenue du Marechal Foch",
+            "xCoordinate":  2.25372751538998,
+            "yCoordinate": 48.943775964534801
+          },
+
+          {
+            "namePlace": "Allobroges",
+            "number": 248,
+            "address" : "13 Place de la Commune de Paris",
+            "xCoordinate":  2.22891356340082,
+            "yCoordinate": 48.954401453202301
+          },
+
+          {
+            "namePlace": "La Frette",
+            "number": 174,
+            "address" : "Place d'Alessandria",
+            "xCoordinate":  2.22446181827992,
+            "yCoordinate": 48.952201721150601
+          },
+          {
+            "namePlace": "Cévennes",
+            "number": 264,
+            "address" : "Place Saint Just",
+            "xCoordinate": 2.22768201446878,
+            "yCoordinate":48.953765927075999
+          },
+          {
+            "namePlace": "Bapaume",
+            "number": 303,
+            "address" : "Place des Canuts",
+            "xCoordinate":  2.22483113365953,
+            "yCoordinate": 48.953435975441998
+          },
+          {
+            "namePlace": "Montesquieu / Val d'Argent Sud",
+            "number": 630,
+            "address" : "4 Rue Montesquieu",
+            "xCoordinate":  2.23218133975704,
+            "yCoordinate":  48.948033962874
+          },
+
+          {
+            "namePlace": "Terrasses/Franprix",
+            "number": 174,
+            "address" : "Place de la Commune de Paris",
+            "xCoordinate":  2.22722801131408,
+            "yCoordinate":  48.953137684634697
+          },
+
+
+          {
+            "namePlace": "Commune de Paris",
+            "number": 124,
+            "address" : "Allée Soulezard",
+            "xCoordinate":  2.22920666840667,
+            "yCoordinate":  48.952162212875997
+          },
+
+          {
+            "namePlace": "Gare d'Argenteuil",
+            "number": 81,
+            "address" : "En face du 15 boulevard Karl Marx",
+            "xCoordinate":  2.25842010333012,
+            "yCoordinate":  48.945257063625199
+          },
+
+          {
+            "namePlace": "Gare du Val d'Argent",
+            "number": 428,
+            "address" : "1 Boulevard de la Resistance",
+            "xCoordinate":   2.22957829874476,
+            "yCoordinate":   48.950454876077799
+          },
+          {
+            "namePlace": "Hôtel de Ville",
+            "number": 70,
+            "address" : "16 A Boulevard Léon Feix",
+            "xCoordinate":   2.24870094011538,
+            "yCoordinate":   48.946761596920702
+          },
+          {
+            "namePlace": "Avenue de la Glacière",
+            "number": 60,
+            "address" : "En face du 7 Clos du Chateau",
+            "xCoordinate":   2.22992806678379,
+            "yCoordinate":   48.934986887293803
+          },
+
+          {
+            "namePlace": "Chailloit",
+            "number": 20,
+            "address" : "En face du 1 rue de Chailloit",
+            "xCoordinate":   2.2402926731234,
+            "yCoordinate":   48.958195435225399
+          },
+
+          {
+            "namePlace": "Champioux",
+            "number": 60,
+            "address" : "7-13 rue du Troupeau",
+            "xCoordinate":  2.22328339751042,
+            "yCoordinate":   48.941431157656503
+          },
+
+          {
+            "namePlace": "Collège Claude Monet",
+            "number": 29,
+            "address" : "En face du 23 allée Pierre de Ronsard",
+            "xCoordinate":   2.22418248624401,
+            "yCoordinate":   48.954203120336103
+          },
+
+          {
+            "namePlace": "de la Plataneraie",
+            "number": 21,
+            "address" : "Boulevard Héloïse",
+            "xCoordinate":   2.24670534349149,
+            "yCoordinate":   48.938106755980797
+          },
+          {
+            "namePlace": "Ancien commissariat",
+            "number": 21,
+            "address" : "Rue du Moulin",
+            "xCoordinate":   2.25490932011311,
+            "yCoordinate":   48.946209740073101
+          },
+          {
+            "namePlace": "Delambret",
+            "number": 34,
+            "address" : "91 Boulevard du General Delambre",
+            "xCoordinate":   2.22547458342281,
+            "yCoordinate":   48.933374236199803
+          },
+
+          {
+            "namePlace": "Ecole Romain Rolland",
+            "number": 61,
+            "address" : "Derrière le 3 allée Beethoven",
+            "xCoordinate":   2.21910523430932,
+            "yCoordinate":   48.953582448238897
+          },
+          {
+            "namePlace": "Fernand Léger",
+            "number": 7,
+            "address" : "58 Allée Fernand Leger",
+            "xCoordinate":    2.22529925473725,
+            "yCoordinate":   48.952135175943901
+          },
+          {
+            "namePlace": "IUT",
+            "number": 330,
+            "address" : "Allée de la Griffe d'Argent",
+            "xCoordinate":    2.23227843506285,
+            "yCoordinate":   48.949397393628601
+          },
+          {
+            "namePlace": "Jean Villar",
+            "number": 253,
+            "address" : "A l'angle de l'Avenue Gabriel Péri et du Boulevard Héloïse",
+            "xCoordinate":    2.25317599921285,
+            "yCoordinate":   48.941291346166103
+          },
+          {
+            "namePlace": "Lurçat",
+            "number": 32,
+            "address" : "En face de 42 Allée Fernand Leger",
+            "xCoordinate":    2.22697467742082,
+            "yCoordinate":   48.952364879675798
+          },
+
+          {
+            "namePlace": "Marché Héloïse",
+            "number":  135,
+            "address" : "En face de 80 Boulevard Héloise",
+            "xCoordinate":   2.24827520155278,
+            "yCoordinate":   48.939308303469701
+          },
+          {
+            "namePlace": "René Chausson",
+            "number":  38,
+            "address" : "Rue René Chausson",
+            "xCoordinate":  2.22393884966422,
+            "yCoordinate":  48.951243722357603
+          },
+          {
+            "namePlace": "Résistance / Wallon",
+            "number":  16,
+            "address" : "A l'angle de la rue de la Berionne et Boulevard de la Resistance",
+            "xCoordinate":  2.22176779589568,
+            "yCoordinate":  48.951160534076301
+          },
+          {
+            "namePlace": "rue des Allobroges",
+            "number":  119,
+            "address" : "Rue des Allobroges",
+            "xCoordinate":  2.21720688839977,
+            "yCoordinate":  48.955213652279703
+          },
+          {
+            "namePlace": "Sisley",
+            "number":  175,
+            "address" : "En face du 13 Allée Auguste Renoir",
+            "xCoordinate":   2.23022338523849,
+            "yCoordinate":  48.955511045273497
+          }]
+
+    }

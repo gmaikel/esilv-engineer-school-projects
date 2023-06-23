@@ -1,0 +1,310 @@
+{
+
+
+  "@context": {
+    "@vocab": "http://www.semanticweb.org/syrin/ontologies/2022/2/untitled-ontology-11#",
+    "@base": "http://www.semanticweb.org/syrin/ontologies/2022/2/untitled-ontology-11/",
+    
+    "namePlace": "namePlace",
+    "address": "address",
+    "xCoordinate": "xCoordinate",
+    "yCoordinate": "yCoordinate"
+
+  },
+
+
+
+  "records": [
+
+    {
+      "namePlace": "Square Fernand Leger",
+      "address": "Allée Fernand Léger",
+      "xCoordinate": 2.2291738913259,
+      "yCoordinate": 48.950947461727701
+    },
+    {
+      "namePlace": "Square Clémenceau",
+      "address": "Rue des Celtes",
+      "xCoordinate": 2.2328695786776498,
+      "yCoordinate": 48.9558829191716
+    },
+    {
+      "namePlace": "Square Monmousseau",
+      "address": "Rue Gaston Monmousseau",
+      "xCoordinate": 2.25123394654084,
+      "yCoordinate": 48.948318155300797
+    },
+
+    {
+      "namePlace": "Square Pierre Joly",
+      "address": "Place Carnot",
+      "xCoordinate": 2.25123394654084,
+      "yCoordinate": 48.948318155300797
+    },
+    {
+      "namePlace": "Square du Cinq Mars",
+      "address": "Avenue du Cinq Mars",
+      "xCoordinate": 2.2310428075921598,
+      "yCoordinate": 48.936946917222002
+    },
+    {
+      "namePlace": "Square de l'Union",
+      "address": "Rue de l'Union",
+      "xCoordinate": 2.2212942030495602,
+      "yCoordinate": 48.939887951377202
+    },
+    {
+      "namePlace": "Square Camélinat",
+      "address": "Rue de la Justice",
+      "xCoordinate": 2.2166409190796799,
+      "yCoordinate": 48.937653060742498
+    },
+    {
+      "namePlace": "Jardin pédagogique du Poirier Fourrier",
+      "address": "Rue du Poirier Fourrier",
+      "xCoordinate": 2.22868483218992,
+      "yCoordinate": 48.947901368373898
+    },
+    {
+      "namePlace": "Square Jules Ferry",
+      "address": "Boulevard Jules Ferry",
+      "xCoordinate": 2.2657761641818301,
+      "yCoordinate": 48.951275000195103
+    },
+    {
+      "namePlace": "Square Caillebotte",
+      "address": "Rue Gustave Caillebotte",
+      "xCoordinate": 2.23088526146674,
+      "yCoordinate": 48.9399462589489
+    },
+    {
+      "namePlace": "Allée Soulezard",
+      "address": "Allée Soulezard",
+      "xCoordinate": 2.2298479047787101,
+      "yCoordinate": 48.951870469039001
+    },
+    {
+      "namePlace": "Jardin de la Haie Normande",
+      "address": "Allée de la Haie Normande",
+      "xCoordinate": 2.2210368707029202,
+      "yCoordinate": 48.953751811807301
+    },
+    {
+      "namePlace": "Jardin des Musiciens",
+      "address": "Allée Beethoven",
+      "xCoordinate": 2.2180403883353299,
+      "yCoordinate": 48.954420189083102
+    },
+    {
+      "namePlace": "Square de la colombes",
+      "address": "Rue de Rethondes",
+      "xCoordinate": 2.2315562328543801,
+      "yCoordinate": 48.946262771701399
+    },
+    {
+      "namePlace": "Square de la Rethonde",
+      "address": "Rue du Poirier Fourrier",
+      "xCoordinate": 2.23124603720888,
+      "yCoordinate": 48.947209030926103
+    },
+    {
+      "namePlace": "Espace Paul Eluard",
+      "address": "Allée Paul Eluard",
+      "xCoordinate": 2.2284369864737199,
+      "yCoordinate": 48.954926690278903
+    },
+    {
+      "namePlace": "Jardin des Justes",
+      "address": "Rue des Provençaux",
+      "xCoordinate": 2.2886422068077001,
+      "yCoordinate": 48.952552339705299
+    },
+    {
+      "namePlace": "Jardin de l'Hôtel de Ville",
+      "address": "Boulevard Léon Feix",
+      "xCoordinate": 2.2487454021092601,
+      "yCoordinate": 48.952552339705299
+    },
+    {
+      "namePlace": "Place Georges Braque",
+      "address": "Place Georges Braque",
+      "xCoordinate": 2.2480139318844299,
+      "yCoordinate": 48.9417775383262
+    },
+    {
+      "namePlace": "Piscine Youri Gagarine",
+      "address": "Rue du Nord",
+      "xCoordinate": 2.2541053160474198,
+      "yCoordinate": 48.961409275154402
+    },
+    {
+      "namePlace": "Jardin des impressionnistes",
+      "address": "Ruelle de l'Eglise",
+      "xCoordinate": 2.2456695754617901,
+      "yCoordinate": 48.941575377421898
+    },
+    {
+      "namePlace": "Square de Lorraine",
+      "address": "Place de Lorraine",
+      "xCoordinate": 2.22463505032461,
+      "yCoordinate": 48.9352337044295
+    },
+    {
+      "namePlace": "Parc des Champioux",
+      "address": "Boulevard du Général Delambre",
+      "xCoordinate": 2.22419124768849,
+      "yCoordinate": 48.938081019818902
+    },
+    {
+      "namePlace": "Espace Jean Vilar",
+      "address": "Boulevard Héloïse",
+      "xCoordinate": 2.2512328601817,
+      "yCoordinate": 48.940758295876499
+    },
+    {
+      "namePlace": "Jardin des Saints Pères",
+      "address": "Rue du Huit Mai 1945",
+      "xCoordinate": 2.24779773538339,
+      "yCoordinate": 48.940247342989899
+    },
+    {
+      "namePlace": "Square de la Flache",
+      "address": "Rue de la Flache",
+      "xCoordinate": 2.2433294477516301,
+      "yCoordinate": 48.952228847594597
+    },
+    {
+      "namePlace": "Parc Mirabeau",
+      "address": "Avenue du Parc",
+      "xCoordinate": 2.2280288791407901,
+      "yCoordinate": 48.935264098727302
+    },
+    {
+      "namePlace": "Jardin de la Bérionne",
+      "address": "Rue de la Bérionne",
+      "xCoordinate": 2.2208847701947199,
+      "yCoordinate": 48.952318734388399
+    },
+    {
+      "namePlace": "Parc des Berges",
+      "address": "Boulevard Héloïse",
+      "xCoordinate": 2.2548788903885799,
+      "yCoordinate": 48.942259470723101
+    },
+    {
+      "namePlace": "Parc du cerisier",
+      "address": "Rue des Allobroges",
+      "xCoordinate": 2.2208979067463401,
+      "yCoordinate": 48.956399642629997
+    },
+    {
+      "namePlace": "Square des deux Abbés",
+      "address": "Rue de Calais",
+      "xCoordinate": 2.24677892876612,
+      "yCoordinate": 48.942674990152597
+    },
+    {
+      "namePlace": "Square du Prunet",
+      "address": "Rue des Figuiers Blancs",
+      "xCoordinate": 2.2304584154351899,
+      "yCoordinate": 48.943308313147497
+    },
+    {
+      "namePlace": "Square Poirier Fourrier",
+      "address": "Rue du Poirier Fourrier",
+      "xCoordinate": 2.2304584154351899,
+      "yCoordinate": 48.948594260257202
+    },
+    {
+      "namePlace": "Square Locarno",
+      "address": "Square de Locarno",
+      "xCoordinate": 2.2266436727285002,
+      "yCoordinate": 48.946099750999103
+    },
+    {
+      "namePlace": "Square du chevalier St George",
+      "address": "Boulevard Héloïse",
+      "xCoordinate": 2.2519812511302502,
+      "yCoordinate": 48.942086793418603
+    },
+    {
+      "namePlace": "Côté des Larris",
+      "address": "",
+      "xCoordinate": 2.2851228791660301,
+      "yCoordinate": 48.9512159501136
+    },
+    {
+      "namePlace": "Mail Stendhal",
+      "address": "Mail Stendhal",
+      "xCoordinate": 2.2234859169521801,
+      "yCoordinate": 48.953652135642699
+    },
+    {
+      "namePlace": "Promenade Verte",
+      "address": "Avenue de l'Espace",
+      "xCoordinate": 2.2569254940621999,
+      "yCoordinate": 48.960474124495597
+    },
+    {
+      "namePlace": "Promenade Heloise",
+      "address": "Boulevard Héloïse",
+      "xCoordinate": 2.2478344006403401,
+      "yCoordinate": 48.938534926896203
+    },
+    {
+      "namePlace": "Parc Maurice Audin",
+      "address": "Allée Romain Rolland",
+      "xCoordinate": 2.2316301588389802,
+      "yCoordinate": 48.952233240055399
+    },
+    {
+      "namePlace": "Square Henri Wallon",
+      "address": "Allée Henri Wallon",
+      "xCoordinate": 2.2232663006934299,
+      "yCoordinate": 48.952233240055399
+    },
+    {
+      "namePlace": "Jardin Henri Wallon",
+      "address": "Allée Henri Wallon",
+      "xCoordinate": 2.22476847870439,
+      "yCoordinate": 48.951122902587002
+    },
+    {
+      "namePlace": "Espace Villon n°2",
+      "address": "Allée François Villon",
+      "xCoordinate": 2.2257269392610701,
+      "yCoordinate": 48.954035078256702
+    },
+    {
+      "namePlace": "Espace Villon square des quatre tours",
+      "address": "Allée François Villon",
+      "xCoordinate": 2.2252932939969199,
+      "yCoordinate": 48.954626358323303
+    },
+    {
+      "namePlace": "Place des Vosges",
+      "address": "Place des Vosges",
+      "xCoordinate": 2.2887334256973202,
+      "yCoordinate": 48.953837309023697
+    },
+    {
+      "namePlace": "Dalle Nord Commune de Paris",
+      "address": "Allée Ronsard",
+      "xCoordinate": 2.2259439204367899,
+      "yCoordinate": 48.953432080812298
+    },
+    {
+      "namePlace": "Diderot Nord",
+      "address": "Place d'Alembert",
+      "xCoordinate": 2.2282380404236699,
+      "yCoordinate": 48.954047180606601
+    },
+    {
+      "namePlace": "Place du Marché",
+      "address": "Allée Fernand Léger",
+      "xCoordinate": 2.2272367720563202,
+      "yCoordinate": 48.951909256474302
+    }
+  ]
+
+}

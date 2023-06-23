@@ -1,0 +1,2 @@
+0;Renault;4eBg;0;568;3;Camion;fg64d;79;500;400;0;Donatien;Dufort;dona;478;False;True;True;True;Paris;Lyon;0;0;27/12/18;05/03/19;486
+1;Triumph;B6;0;27;2;Moto;dfsg52f;35;125;0;Donatien;Dufort;dona;478;False;True;True;True;Lyon;Paris;0;1;03/10/18;10/11/18;231

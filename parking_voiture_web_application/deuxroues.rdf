@@ -1,0 +1,743 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:ns0="http://www.semanticweb.org/syrin/ontologies/2022/2/untitled-ontology-11#">
+
+  <rdf:Description rdf:nodeID="genid1">
+    <ns0:records>
+      <rdf:Description>
+        <ns0:address rdf:datatype="http://www.w3.org/2001/XMLSchema#string">71 RUE PAUL VAILLANT COUTURIER</ns0:address>
+        <ns0:namePlace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Paul Vaillant Couturier – angle G. Péri (babou)</ns0:namePlace>
+        <ns0:number rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4</ns0:number>
+        <ns0:xCoordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2.2508768357057E0</ns0:xCoordinate>
+        <ns0:yCoordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.89441749180342E1</ns0:yCoordinate>
+      </rdf:Description>
+    </ns0:records>
+
+    <ns0:records>
+      <rdf:Description>
+        <ns0:address rdf:datatype="http://www.w3.org/2001/XMLSchema#string">35 AVENUE GABRIEL PERI</ns0:address>
+        <ns0:namePlace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">35 avenue Gabriel Péri - Poissonnerie</ns0:namePlace>
+        <ns0:number rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4</ns0:number>
+        <ns0:xCoordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2.25066703318861E0</ns0:xCoordinate>
+        <ns0:yCoordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.89444213880513E1</ns0:yCoordinate>
+      </rdf:Description>
+    </ns0:records>
+
+    <ns0:records>
+      <rdf:Description>
+        <ns0:address rdf:datatype="http://www.w3.org/2001/XMLSchema#string">72 AVENUE GABRIEL PERI</ns0:address>
+        <ns0:namePlace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">72 avenue Gabriel Péri - poste prolongée</ns0:namePlace>
+        <ns0:number rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4</ns0:number>
+        <ns0:xCoordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2.24984788071706E0</ns0:xCoordinate>
+        <ns0:yCoordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.89457092588277E1</ns0:yCoordinate>
+      </rdf:Description>
+    </ns0:records>
+
+    <ns0:records>
+      <rdf:Description>
+        <ns0:address rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AVENUE DU MARECHAL FOCH</ns0:address>
+        <ns0:namePlace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Centre commercial Côté Seine</ns0:namePlace>
+        <ns0:number rdf:datatype="http://www.w3.org/2001/XMLSchema#int">10</ns0:number>
+        <ns0:xCoordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2.2537097060158E0</ns0:xCoordinate>
+        <ns0:yCoordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.89439061500203E1</ns0:yCoordinate>
+      </rdf:Description>
+    </ns0:records>
+
+    <ns0:records>
+      <rdf:Description>
+        <ns0:address rdf:datatype="http://www.w3.org/2001/XMLSchema#string">31 RUE CAREME PRENANT</ns0:address>
+        <ns0:namePlace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Poste Carême Prenant</ns0:namePlace>
+        <ns0:number rdf:datatype="http://www.w3.org/2001/XMLSchema#int">8</ns0:number>
+        <ns0:xCoordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2.25349856774612E0</ns0:xCoordinate>
+        <ns0:yCoordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.89450663120435E1</ns0:yCoordinate>
+      </rdf:Description>
+    </ns0:records>
+
+    <ns0:records>
+      <rdf:Description>
+        <ns0:address rdf:datatype="http://www.w3.org/2001/XMLSchema#string">31 RUE CAREME PRENANT</ns0:address>
+        <ns0:namePlace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Poste Carême Prenant</ns0:namePlace>
+        <ns0:number rdf:datatype="http://www.w3.org/2001/XMLSchema#int">8</ns0:number>
+        <ns0:xCoordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2.25349856774612E0</ns0:xCoordinate>
+        <ns0:yCoordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.89450663120435E1</ns0:yCoordinate>
+      </rdf:Description>
+    </ns0:records>
+
+    <ns0:records>
+      <rdf:Description>
+        <ns0:address rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ESPLANADE DE L EUROPE</ns0:address>
+        <ns0:namePlace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Poste du Val d'Argent Nord</ns0:namePlace>
+        <ns0:number rdf:datatype="http://www.w3.org/2001/XMLSchema#int">8</ns0:number>
+        <ns0:xCoordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2.22595924552152E0</ns0:xCoordinate>
+        <ns0:yCoordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.89527713163689E1</ns0:yCoordinate>
+      </rdf:Description>
+    </ns0:records>
+
+    <ns0:records>
+      <rdf:Description>
+        <ns0:address rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PLACE DE LA COMMUNE DE PARIS</ns0:address>
+        <ns0:namePlace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Place de la commune de Paris</ns0:namePlace>
+        <ns0:number rdf:datatype="http://www.w3.org/2001/XMLSchema#int">8</ns0:number>
+        <ns0:xCoordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2.22752315604935E0</ns0:xCoordinate>
+        <ns0:yCoordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.89529307417575E1</ns0:yCoordinate>
+      </rdf:Description>
+    </ns0:records>
+
+    <ns0:records>
+      <rdf:Description>
+        <ns0:address rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ESPLANADE DE L EUROPE</ns0:address>
+        <ns0:namePlace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Médiathèque R. Desnos</ns0:namePlace>
+        <ns0:number rdf:datatype="http://www.w3.org/2001/XMLSchema#int">8</ns0:number>
+        <ns0:xCoordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2.22530422958009E0</ns0:xCoordinate>
+        <ns0:yCoordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.89526667671301E1</ns0:yCoordinate>
+      </rdf:Description>
+    </ns0:records>
+
+    <ns0:records>
+      <rdf:Description>
+        <ns0:address rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LYCEE ROMAIN ROLLAND</ns0:address>
+        <ns0:namePlace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gymnase Romain Rollands</ns0:namePlace>
+        <ns0:number rdf:datatype="http://www.w3.org/2001/XMLSchema#int">10</ns0:number>
+        <ns0:xCoordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2.23350836405061E0</ns0:xCoordinate>
+        <ns0:yCoordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.89533736544509E1</ns0:yCoordinate>
+      </rdf:Description>
+    </ns0:records>
+
+    <ns0:records>
+      <rdf:Description>
+        <ns0:address rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOULEVARD LEON FEIX</ns0:address>
+        <ns0:namePlace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hôtel de ville</ns0:namePlace>
+        <ns0:number rdf:datatype="http://www.w3.org/2001/XMLSchema#int">14</ns0:number>
+        <ns0:xCoordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2.24885665082722E0</ns0:xCoordinate>
+        <ns0:yCoordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.89472893920123E1</ns0:yCoordinate>
+      </rdf:Description>
+    </ns0:records>
+
+    <ns0:records>
+      <rdf:Description>
+        <ns0:address rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RUE DE LA GRANDE VOIE</ns0:address>
+        <ns0:namePlace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Marché des Coteaux</ns0:namePlace>
+        <ns0:number rdf:datatype="http://www.w3.org/2001/XMLSchema#int">2</ns0:number>
+        <ns0:xCoordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2.23580691341453E0</ns0:xCoordinate>
+        <ns0:yCoordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.89610739384632E1</ns0:yCoordinate>
+      </rdf:Description>
+    </ns0:records>
+
+    <ns0:records>
+      <rdf:Description>
+        <ns0:address rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PLACE ARISTIDE BRIAND</ns0:address>
+        <ns0:namePlace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Marché de la Colonie</ns0:namePlace>
+        <ns0:number rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4</ns0:number>
+        <ns0:xCoordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2.25701604474886E0</ns0:xCoordinate>
+        <ns0:yCoordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.89491059995432E1</ns0:yCoordinate>
+      </rdf:Description>
+    </ns0:records>
+
+    <ns0:records>
+      <rdf:Description>
+        <ns0:address rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RUE PAUL VAILLANT COUTURIER</ns0:address>
+        <ns0:namePlace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Basilique Saint Denys</ns0:namePlace>
+        <ns0:number rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4</ns0:number>
+        <ns0:xCoordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2.24708593936338E0</ns0:xCoordinate>
+        <ns0:yCoordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.89419727602427E1</ns0:yCoordinate>
+      </rdf:Description>
+    </ns0:records>
+
+    <ns0:records>
+      <rdf:Description>
+        <ns0:address rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RUE DU HUIT MAI 1945</ns0:address>
+        <ns0:namePlace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rue du huit Mai 1945 - en face rue des Saint Pères</ns0:namePlace>
+        <ns0:number rdf:datatype="http://www.w3.org/2001/XMLSchema#int">12</ns0:number>
+        <ns0:xCoordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2.24796453246669E0</ns0:xCoordinate>
+        <ns0:yCoordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.8940456474771E1</ns0:yCoordinate>
+      </rdf:Description>
+    </ns0:records>
+
+    <ns0:records>
+      <rdf:Description>
+        <ns0:address rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RUE DE L  ABBE FLEURY</ns0:address>
+        <ns0:namePlace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Figuier Blanc</ns0:namePlace>
+        <ns0:number rdf:datatype="http://www.w3.org/2001/XMLSchema#int">12</ns0:number>
+        <ns0:xCoordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2.24720245501487E0</ns0:xCoordinate>
+        <ns0:yCoordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.89437984194065E1</ns0:yCoordinate>
+      </rdf:Description>
+    </ns0:records>
+
+    <ns0:records>
+      <rdf:Description>
+        <ns0:address rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2 RUE CHAMPAGNE</ns0:address>
+        <ns0:namePlace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gymnase des Châtaigniers</ns0:namePlace>
+        <ns0:number rdf:datatype="http://www.w3.org/2001/XMLSchema#int">12</ns0:number>
+        <ns0:xCoordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2.25144077883689E0</ns0:xCoordinate>
+        <ns0:yCoordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.8960880915019E1</ns0:yCoordinate>
+      </rdf:Description>
+    </ns0:records>
+
+    <ns0:records>
+      <rdf:Description>
+        <ns0:address rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3 SQUARE MICHELET</ns0:address>
+        <ns0:namePlace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3 place Michelet</ns0:namePlace>
+        <ns0:number rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4</ns0:number>
+        <ns0:xCoordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2.25263628296546E0</ns0:xCoordinate>
+        <ns0:yCoordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.89474246849137E1</ns0:yCoordinate>
+      </rdf:Description>
+    </ns0:records>
+
+    <ns0:records>
+      <rdf:Description>
+        <ns0:address rdf:datatype="http://www.w3.org/2001/XMLSchema#string">23 RUE PAUL VAILLANT COUTURIER</ns0:address>
+        <ns0:namePlace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">23 rue Paul Vaillant Couturier</ns0:namePlace>
+        <ns0:number rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4</ns0:number>
+        <ns0:xCoordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2.25386685596554E0</ns0:xCoordinate>
+        <ns0:yCoordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.89460241858448E1</ns0:yCoordinate>
+      </rdf:Description>
+    </ns0:records>
+
+    <ns0:records>
+      <rdf:Description>
+        <ns0:address rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOULEVARD KARL MARX</ns0:address>
+        <ns0:namePlace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Place Pierre Sémard</ns0:namePlace>
+        <ns0:number rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4</ns0:number>
+        <ns0:xCoordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2.25630388157765E0</ns0:xCoordinate>
+        <ns0:yCoordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.89474349714148E1</ns0:yCoordinate>
+      </rdf:Description>
+    </ns0:records>
+
+    <ns0:records>
+      <rdf:Description>
+        <ns0:address rdf:datatype="http://www.w3.org/2001/XMLSchema#string">12 BOULEVARD LEON FEIX</ns0:address>
+        <ns0:namePlace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Médiathèque Louis Aragon et Elsa Triolet</ns0:namePlace>
+        <ns0:number rdf:datatype="http://www.w3.org/2001/XMLSchema#int">3</ns0:number>
+        <ns0:xCoordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2.24798284833473E0</ns0:xCoordinate>
+        <ns0:yCoordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.89468064117893E1</ns0:yCoordinate>
+      </rdf:Description>
+    </ns0:records>
+
+    <ns0:records>
+      <rdf:Description>
+        <ns0:address rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ALLEE FERNAND LEGER</ns0:address>
+        <ns0:namePlace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FERNAND LEGER</ns0:namePlace>
+        <ns0:number rdf:datatype="http://www.w3.org/2001/XMLSchema#int">8</ns0:number>
+        <ns0:xCoordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2.22567516208376E0</ns0:xCoordinate>
+        <ns0:yCoordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.89521158026506E1</ns0:yCoordinate>
+      </rdf:Description>
+    </ns0:records>
+
+    <ns0:records>
+      <rdf:Description>
+        <ns0:address rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RUE DU LIEUTENANT COLONEL PRUDHON</ns0:address>
+        <ns0:namePlace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hôpital Dupouy</ns0:namePlace>
+        <ns0:number rdf:datatype="http://www.w3.org/2001/XMLSchema#int">12</ns0:number>
+        <ns0:xCoordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2.23847701712497E0</ns0:xCoordinate>
+        <ns0:yCoordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.89459061156804E1</ns0:yCoordinate>
+      </rdf:Description>
+    </ns0:records>
+
+    <ns0:records>
+      <rdf:Description>
+        <ns0:address rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOULEVARD DU GENERAL DELAMBRE</ns0:address>
+        <ns0:namePlace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mairie Val Notre Dame</ns0:namePlace>
+        <ns0:number rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4</ns0:number>
+        <ns0:xCoordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2.22369218497019E0</ns0:xCoordinate>
+        <ns0:yCoordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.89387601213543E1</ns0:yCoordinate>
+      </rdf:Description>
+    </ns0:records>
+
+    <ns0:records>
+      <rdf:Description>
+        <ns0:address rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AVENUE DU MARECHAL JOFFRE / AVENUE CLEMENCEAU / RUE DU POITO</ns0:address>
+        <ns0:namePlace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Maison de quartier des Coteaux</ns0:namePlace>
+        <ns0:number rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4</ns0:number>
+        <ns0:xCoordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2.23959012172931E0</ns0:xCoordinate>
+        <ns0:yCoordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.89581705518512E1</ns0:yCoordinate>
+      </rdf:Description>
+    </ns0:records>
+
+    <ns0:records>
+      <rdf:Description>
+        <ns0:address rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AVENUE MAURICE UTRILLO4</ns0:address>
+        <ns0:namePlace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Poste centrale Val Sud</ns0:namePlace>
+        <ns0:number rdf:datatype="http://www.w3.org/2001/XMLSchema#int">2</ns0:number>
+        <ns0:xCoordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2.23346425990239E0</ns0:xCoordinate>
+        <ns0:yCoordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.89468371019933E1</ns0:yCoordinate>
+      </rdf:Description>
+    </ns0:records>
+
+    <ns0:records>
+      <rdf:Description>
+        <ns0:address rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ns0:address>
+        <ns0:namePlace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nelson Mandela</ns0:namePlace>
+        <ns0:number rdf:datatype="http://www.w3.org/2001/XMLSchema#int">2</ns0:number>
+        <ns0:xCoordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2.22742318655653E0</ns0:xCoordinate>
+        <ns0:yCoordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.89377234626614E1</ns0:yCoordinate>
+      </rdf:Description>
+    </ns0:records>
+
+    <ns0:records>
+      <rdf:Description>
+        <ns0:address rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AVENUE MAURICE UTRILLO</ns0:address>
+        <ns0:namePlace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Utrillo</ns0:namePlace>
+        <ns0:number rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4</ns0:number>
+        <ns0:xCoordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2.23237629163907E0</ns0:xCoordinate>
+        <ns0:yCoordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.89471498460451E1</ns0:yCoordinate>
+      </rdf:Description>
+    </ns0:records>
+
+    <ns0:records>
+      <rdf:Description>
+        <ns0:address rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AVENUE MAURICE UTRILLO</ns0:address>
+        <ns0:namePlace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Utrillo</ns0:namePlace>
+        <ns0:number rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4</ns0:number>
+        <ns0:xCoordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2.23351196549009E0</ns0:xCoordinate>
+        <ns0:yCoordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.89458752891055E1</ns0:yCoordinate>
+      </rdf:Description>
+    </ns0:records>
+
+    <ns0:records>
+      <rdf:Description>
+        <ns0:address rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AVENUE MAURICE UTRILLO</ns0:address>
+        <ns0:namePlace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Utrillo</ns0:namePlace>
+        <ns0:number rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4</ns0:number>
+        <ns0:xCoordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2.23351196549009E0</ns0:xCoordinate>
+        <ns0:yCoordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.89458752891055E1</ns0:yCoordinate>
+      </rdf:Description>
+    </ns0:records>
+
+    <ns0:records>
+      <rdf:Description>
+        <ns0:address rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ALLEE ROMAIN ROLLAND</ns0:address>
+        <ns0:namePlace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Parc Maurice Audin</ns0:namePlace>
+        <ns0:number rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4</ns0:number>
+        <ns0:xCoordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2.23037201654105E0</ns0:xCoordinate>
+        <ns0:yCoordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.89525739655335E1</ns0:yCoordinate>
+      </rdf:Description>
+    </ns0:records>
+
+    <ns0:records>
+      <rdf:Description>
+        <ns0:address rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AVENUE DU PARC</ns0:address>
+        <ns0:namePlace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Stade du Marais</ns0:namePlace>
+        <ns0:number rdf:datatype="http://www.w3.org/2001/XMLSchema#int">6</ns0:number>
+        <ns0:xCoordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2.2282394693447E0</ns0:xCoordinate>
+        <ns0:yCoordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.89360307158019E1</ns0:yCoordinate>
+      </rdf:Description>
+    </ns0:records>
+
+    <ns0:records>
+      <rdf:Description>
+        <ns0:address rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RUE DU NORD</ns0:address>
+        <ns0:namePlace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Centre aquatique</ns0:namePlace>
+        <ns0:number rdf:datatype="http://www.w3.org/2001/XMLSchema#int">6</ns0:number>
+        <ns0:xCoordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2.25611200399616E0</ns0:xCoordinate>
+        <ns0:yCoordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.89623010809415E1</ns0:yCoordinate>
+      </rdf:Description>
+    </ns0:records>
+
+    <ns0:records>
+      <rdf:Description>
+        <ns0:address rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RUE JEAN JACQUES ROUSSEAU</ns0:address>
+        <ns0:namePlace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Stade Jean Jaurès</ns0:namePlace>
+        <ns0:number rdf:datatype="http://www.w3.org/2001/XMLSchema#int">8</ns0:number>
+        <ns0:xCoordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2.22498540461409E0</ns0:xCoordinate>
+        <ns0:yCoordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.89367839298612E1</ns0:yCoordinate>
+      </rdf:Description>
+    </ns0:records>
+
+    <ns0:records>
+      <rdf:Description>
+        <ns0:address rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOULEVARD HELOISE</ns0:address>
+        <ns0:namePlace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Stade Alain Mimoun</ns0:namePlace>
+        <ns0:number rdf:datatype="http://www.w3.org/2001/XMLSchema#int">14</ns0:number>
+        <ns0:xCoordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2.2508938347128E0</ns0:xCoordinate>
+        <ns0:yCoordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.89407738217609E1</ns0:yCoordinate>
+      </rdf:Description>
+    </ns0:records>
+
+    <ns0:records>
+      <rdf:Description>
+        <ns0:address rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOULEVARD DE LA RESISTANCE</ns0:address>
+        <ns0:namePlace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gymnase Henri Wallon</ns0:namePlace>
+        <ns0:number rdf:datatype="http://www.w3.org/2001/XMLSchema#int">6</ns0:number>
+        <ns0:xCoordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2.22615112218327E0</ns0:xCoordinate>
+        <ns0:yCoordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.8950459177687E1</ns0:yCoordinate>
+      </rdf:Description>
+    </ns0:records>
+
+    <ns0:records>
+      <rdf:Description>
+        <ns0:address rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOULEVARD DE LA RESISTANCE</ns0:address>
+        <ns0:namePlace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Académie de billard</ns0:namePlace>
+        <ns0:number rdf:datatype="http://www.w3.org/2001/XMLSchema#int">5</ns0:number>
+        <ns0:xCoordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2.21961179166479E0</ns0:xCoordinate>
+        <ns0:yCoordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.89518268202231E1</ns0:yCoordinate>
+      </rdf:Description>
+    </ns0:records>
+
+    <ns0:records>
+      <rdf:Description>
+        <ns0:address rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PLACE DES VOSGES</ns0:address>
+        <ns0:namePlace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Stade Auguste Delaune</ns0:namePlace>
+        <ns0:number rdf:datatype="http://www.w3.org/2001/XMLSchema#int">10</ns0:number>
+        <ns0:xCoordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2.28884846574466E0</ns0:xCoordinate>
+        <ns0:yCoordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.8953771918533E1</ns0:yCoordinate>
+      </rdf:Description>
+    </ns0:records>
+
+    <ns0:records>
+      <rdf:Description>
+        <ns0:address rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RUE DES ALLOUETTES</ns0:address>
+        <ns0:namePlace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Stade des Courlis</ns0:namePlace>
+        <ns0:number rdf:datatype="http://www.w3.org/2001/XMLSchema#int">8</ns0:number>
+        <ns0:xCoordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2.21631137227129E0</ns0:xCoordinate>
+        <ns0:yCoordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.89428122828009E1</ns0:yCoordinate>
+      </rdf:Description>
+    </ns0:records>
+
+    <ns0:records>
+      <rdf:Description>
+        <ns0:address rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RUE GOUNOD / AVENUE DU PARC</ns0:address>
+        <ns0:namePlace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tennis Henri Burg</ns0:namePlace>
+        <ns0:number rdf:datatype="http://www.w3.org/2001/XMLSchema#int">10</ns0:number>
+        <ns0:xCoordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2.22944345792006E0</ns0:xCoordinate>
+        <ns0:yCoordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.8934242914869E1</ns0:yCoordinate>
+      </rdf:Description>
+    </ns0:records>
+
+    <ns0:records>
+      <rdf:Description>
+        <ns0:address rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PLACE PIERRE SEMARD</ns0:address>
+        <ns0:namePlace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gare d'Argenteuil Veligo</ns0:namePlace>
+        <ns0:number rdf:datatype="http://www.w3.org/2001/XMLSchema#int">36</ns0:number>
+        <ns0:xCoordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2.25642306306158E0</ns0:xCoordinate>
+        <ns0:yCoordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.89475986431614E1</ns0:yCoordinate>
+      </rdf:Description>
+    </ns0:records>
+
+    <ns0:records>
+      <rdf:Description>
+        <ns0:address rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOULEVARD DE LA RESISTANCE</ns0:address>
+        <ns0:namePlace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gare du Val</ns0:namePlace>
+        <ns0:number rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40</ns0:number>
+        <ns0:xCoordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2.23129745561948E0</ns0:xCoordinate>
+        <ns0:yCoordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.89505838906915E1</ns0:yCoordinate>
+      </rdf:Description>
+    </ns0:records>
+
+    <ns0:records>
+      <rdf:Description>
+        <ns0:address rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RUE LOUIS LHERAULT</ns0:address>
+        <ns0:namePlace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Patinoire IUT</ns0:namePlace>
+        <ns0:number rdf:datatype="http://www.w3.org/2001/XMLSchema#int">6</ns0:number>
+        <ns0:xCoordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2.23239420132074E0</ns0:xCoordinate>
+        <ns0:yCoordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.89494990276728E1</ns0:yCoordinate>
+      </rdf:Description>
+    </ns0:records>
+
+    <ns0:records>
+      <rdf:Description>
+        <ns0:address rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RUE LOUIS LHERAULT</ns0:address>
+        <ns0:namePlace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Parc du cerisier</ns0:namePlace>
+        <ns0:number rdf:datatype="http://www.w3.org/2001/XMLSchema#int">6</ns0:number>
+        <ns0:xCoordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2.22059086589216E0</ns0:xCoordinate>
+        <ns0:yCoordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.89553585664506E1</ns0:yCoordinate>
+      </rdf:Description>
+    </ns0:records>
+
+    <ns0:records>
+      <rdf:Description>
+        <ns0:address rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RUE LOUIS LHERAULT</ns0:address>
+        <ns0:namePlace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Parc du cerisier</ns0:namePlace>
+        <ns0:number rdf:datatype="http://www.w3.org/2001/XMLSchema#int">10</ns0:number>
+        <ns0:xCoordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2.22059086589216E0</ns0:xCoordinate>
+        <ns0:yCoordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.89553585664506E1</ns0:yCoordinate>
+      </rdf:Description>
+    </ns0:records>
+
+    <ns0:records>
+      <rdf:Description>
+        <ns0:address rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOULEVARD JEAN ALLEMANE</ns0:address>
+        <ns0:namePlace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Monoprix centre-ville</ns0:namePlace>
+        <ns0:number rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4</ns0:number>
+        <ns0:xCoordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2.25339247748229E0</ns0:xCoordinate>
+        <ns0:yCoordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.89491701229623E1</ns0:yCoordinate>
+      </rdf:Description>
+    </ns0:records>
+
+    <ns0:records>
+      <rdf:Description>
+        <ns0:address rdf:datatype="http://www.w3.org/2001/XMLSchema#string">28 AVENUE GABRIEL PERI</ns0:address>
+        <ns0:namePlace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">28 avenue Gabriel Péri - Cofféa</ns0:namePlace>
+        <ns0:number rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4</ns0:number>
+        <ns0:xCoordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2.25118697857413E0</ns0:xCoordinate>
+        <ns0:yCoordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.89441956810569E1</ns0:yCoordinate>
+      </rdf:Description>
+    </ns0:records>
+
+    <ns0:records>
+      <rdf:Description>
+        <ns0:address rdf:datatype="http://www.w3.org/2001/XMLSchema#string">46 AVENUE GABRIEL PERI</ns0:address>
+        <ns0:namePlace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">46 avenue Gabriel Péri - placette</ns0:namePlace>
+        <ns0:number rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4</ns0:number>
+        <ns0:xCoordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2.25038769464658E0</ns0:xCoordinate>
+        <ns0:yCoordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.89450107339082E1</ns0:yCoordinate>
+      </rdf:Description>
+    </ns0:records>
+
+    <ns0:records>
+      <rdf:Description>
+        <ns0:address rdf:datatype="http://www.w3.org/2001/XMLSchema#string">23 AVENUE GABRIEL PERI</ns0:address>
+        <ns0:namePlace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">23 avenue Gabriel Péri - Caisse d'épargne</ns0:namePlace>
+        <ns0:number rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4</ns0:number>
+        <ns0:xCoordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2.25149030347635E0</ns0:xCoordinate>
+        <ns0:yCoordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.8943591471147E1</ns0:yCoordinate>
+      </rdf:Description>
+    </ns0:records>
+
+    <ns0:records>
+      <rdf:Description>
+        <ns0:address rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RUE NOTRE DAME</ns0:address>
+        <ns0:namePlace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rue Notre Dame - face jardin Abbaye</ns0:namePlace>
+        <ns0:number rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4</ns0:number>
+        <ns0:xCoordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2.24870191506355E0</ns0:xCoordinate>
+        <ns0:yCoordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.89414998846476E1</ns0:yCoordinate>
+      </rdf:Description>
+    </ns0:records>
+
+    <ns0:records>
+      <rdf:Description>
+        <ns0:address rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RUE NOTRE DAME</ns0:address>
+        <ns0:namePlace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rue Notre Dame - face jardin Abbaye</ns0:namePlace>
+        <ns0:number rdf:datatype="http://www.w3.org/2001/XMLSchema#int">2</ns0:number>
+        <ns0:xCoordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2.24870191506355E0</ns0:xCoordinate>
+        <ns0:yCoordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.89414998846476E1</ns0:yCoordinate>
+      </rdf:Description>
+    </ns0:records>
+
+    <ns0:records>
+      <rdf:Description>
+        <ns0:address rdf:datatype="http://www.w3.org/2001/XMLSchema#string">54 AVENUE GABRIEL PERI</ns0:address>
+        <ns0:namePlace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">54 rue Paul Vaillant Couturier – angle G. Péri (fleuriste)</ns0:namePlace>
+        <ns0:number rdf:datatype="http://www.w3.org/2001/XMLSchema#int">10</ns0:number>
+        <ns0:xCoordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2.25093943875795E0</ns0:xCoordinate>
+        <ns0:yCoordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.8944425757075E1</ns0:yCoordinate>
+      </rdf:Description>
+    </ns0:records>
+
+    <ns0:records>
+      <rdf:Description>
+        <ns0:address rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8 AVENUE GABRIEL PERI</ns0:address>
+        <ns0:namePlace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8 avenue Gabriel Péri</ns0:namePlace>
+        <ns0:number rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4</ns0:number>
+        <ns0:xCoordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2.25221913811053E0</ns0:xCoordinate>
+        <ns0:yCoordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.89431747780321E1</ns0:yCoordinate>
+      </rdf:Description>
+    </ns0:records>
+
+    <ns0:records>
+      <rdf:Description>
+        <ns0:address rdf:datatype="http://www.w3.org/2001/XMLSchema#string">14 AVENUE GABRIEL PERI</ns0:address>
+        <ns0:namePlace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">14 avenue Gabriel Péri</ns0:namePlace>
+        <ns0:number rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4</ns0:number>
+        <ns0:xCoordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2.25187573857325E0</ns0:xCoordinate>
+        <ns0:yCoordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.89435282822763E1</ns0:yCoordinate>
+      </rdf:Description>
+    </ns0:records>
+
+    <ns0:records>
+      <rdf:Description>
+        <ns0:address rdf:datatype="http://www.w3.org/2001/XMLSchema#string">20 AVENUE GABRIEL PERI</ns0:address>
+        <ns0:namePlace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">20 avenue Gabriel Péri - Lissac</ns0:namePlace>
+        <ns0:number rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4</ns0:number>
+        <ns0:xCoordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2.25170062822495E0</ns0:xCoordinate>
+        <ns0:yCoordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.89437004473209E1</ns0:yCoordinate>
+      </rdf:Description>
+    </ns0:records>
+
+    <ns0:records>
+      <rdf:Description>
+        <ns0:address rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7 AVENUE GABRIEL PERI</ns0:address>
+        <ns0:namePlace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7 avenue Gabriel Péri</ns0:namePlace>
+        <ns0:number rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4</ns0:number>
+        <ns0:xCoordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2.25195887467146E0</ns0:xCoordinate>
+        <ns0:yCoordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.8943101996874E1</ns0:yCoordinate>
+      </rdf:Description>
+    </ns0:records>
+
+    <ns0:records>
+      <rdf:Description>
+        <ns0:address rdf:datatype="http://www.w3.org/2001/XMLSchema#string">13 AVENUE GABRIEL PERI</ns0:address>
+        <ns0:namePlace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">13 avenue Gabriel Péri</ns0:namePlace>
+        <ns0:number rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4</ns0:number>
+        <ns0:xCoordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2.25182634146859E0</ns0:xCoordinate>
+        <ns0:yCoordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.89432322454657E1</ns0:yCoordinate>
+      </rdf:Description>
+    </ns0:records>
+
+    <ns0:records>
+      <rdf:Description>
+        <ns0:address rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6 RUE PAUL VAILLANT COUTURIER</ns0:address>
+        <ns0:namePlace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6 rue Paul Vaillant Couturier</ns0:namePlace>
+        <ns0:number rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4</ns0:number>
+        <ns0:xCoordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2.25395611767524E0</ns0:xCoordinate>
+        <ns0:yCoordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.89461897988593E1</ns0:yCoordinate>
+      </rdf:Description>
+    </ns0:records>
+
+    <ns0:records>
+      <rdf:Description>
+        <ns0:address rdf:datatype="http://www.w3.org/2001/XMLSchema#string">67 AVENUE GABRIEL PERI</ns0:address>
+        <ns0:namePlace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">67 avenue Gabriel Péri</ns0:namePlace>
+        <ns0:number rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4</ns0:number>
+        <ns0:xCoordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2.24945927463184E0</ns0:xCoordinate>
+        <ns0:yCoordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.89455546123709E1</ns0:yCoordinate>
+      </rdf:Description>
+    </ns0:records>
+
+    <ns0:records>
+      <rdf:Description>
+        <ns0:address rdf:datatype="http://www.w3.org/2001/XMLSchema#string">60 BOULEVARD HELOISE</ns0:address>
+        <ns0:namePlace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">en face du 60 boulevard Héloïse</ns0:namePlace>
+        <ns0:number rdf:datatype="http://www.w3.org/2001/XMLSchema#int">6</ns0:number>
+        <ns0:xCoordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2.25079251970998E0</ns0:xCoordinate>
+        <ns0:yCoordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.89409660894466E1</ns0:yCoordinate>
+      </rdf:Description>
+    </ns0:records>
+
+    <ns0:records>
+      <rdf:Description>
+        <ns0:address rdf:datatype="http://www.w3.org/2001/XMLSchema#string">69 RUE ALFRED LABRIERRE</ns0:address>
+        <ns0:namePlace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">69 rue Alfred Labrierre</ns0:namePlace>
+        <ns0:number rdf:datatype="http://www.w3.org/2001/XMLSchema#int">0</ns0:number>
+        <ns0:xCoordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2.25361228758887E0</ns0:xCoordinate>
+        <ns0:yCoordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.89482042967663E1</ns0:yCoordinate>
+      </rdf:Description>
+    </ns0:records>
+
+    <ns0:records>
+      <rdf:Description>
+        <ns0:address rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AVENUE JEAN JAURES</ns0:address>
+        <ns0:namePlace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">carrefour entre la rue Jean Jaurès et la rue du Val Notre Dame</ns0:namePlace>
+        <ns0:number rdf:datatype="http://www.w3.org/2001/XMLSchema#int">6</ns0:number>
+        <ns0:xCoordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2.22609905207729E0</ns0:xCoordinate>
+        <ns0:yCoordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.89403115438359E1</ns0:yCoordinate>
+      </rdf:Description>
+    </ns0:records>
+
+    <ns0:records>
+      <rdf:Description>
+        <ns0:address rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ALLE HENRI WALLON</ns0:address>
+        <ns0:namePlace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rue Henri Wallon, au droit du Conservatoire</ns0:namePlace>
+        <ns0:number rdf:datatype="http://www.w3.org/2001/XMLSchema#int">14</ns0:number>
+        <ns0:xCoordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2.22393296809248E0</ns0:xCoordinate>
+        <ns0:yCoordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.89524234212695E1</ns0:yCoordinate>
+      </rdf:Description>
+    </ns0:records>
+
+    <ns0:records>
+      <rdf:Description>
+        <ns0:address rdf:datatype="http://www.w3.org/2001/XMLSchema#string">44 RUE JEAN BORDEREL</ns0:address>
+        <ns0:namePlace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">44 rue Jean Borderel</ns0:namePlace>
+        <ns0:number rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4</ns0:number>
+        <ns0:xCoordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2.25202269584834E0</ns0:xCoordinate>
+        <ns0:yCoordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.89445978837612E1</ns0:yCoordinate>
+      </rdf:Description>
+    </ns0:records>
+
+    <ns0:records>
+      <rdf:Description>
+        <ns0:address rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ALLEE ROMAIN ROLLAND</ns0:address>
+        <ns0:namePlace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Collège Lucie Aubrac</ns0:namePlace>
+        <ns0:number rdf:datatype="http://www.w3.org/2001/XMLSchema#int">14</ns0:number>
+        <ns0:xCoordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2.23012742175582E0</ns0:xCoordinate>
+        <ns0:yCoordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.89530010033857E1</ns0:yCoordinate>
+      </rdf:Description>
+    </ns0:records>
+
+    <ns0:records>
+      <rdf:Description>
+        <ns0:address rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOULEVARD DE LA RESISTANCE</ns0:address>
+        <ns0:namePlace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GARE DU VAL D ARGENT VELIGO</ns0:namePlace>
+        <ns0:number rdf:datatype="http://www.w3.org/2001/XMLSchema#int">30</ns0:number>
+        <ns0:xCoordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2.23223832025085E0</ns0:xCoordinate>
+        <ns0:yCoordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.89508433062263E1</ns0:yCoordinate>
+      </rdf:Description>
+    </ns0:records>
+
+    <ns0:records>
+      <rdf:Description>
+        <ns0:address rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RUE DU VAL NOTRE DAME</ns0:address>
+        <ns0:namePlace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">carrefour entre la rue Jean Jaurès et la rue du Val Notre Dame</ns0:namePlace>
+        <ns0:number rdf:datatype="http://www.w3.org/2001/XMLSchema#int">6</ns0:number>
+        <ns0:xCoordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2.22579443347697E0</ns0:xCoordinate>
+        <ns0:yCoordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.89404871533132E1</ns0:yCoordinate>
+      </rdf:Description>
+    </ns0:records>
+
+    <ns0:records>
+      <rdf:Description>
+        <ns0:address rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PLACE CARNOT</ns0:address>
+        <ns0:namePlace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PLACE CARNOT</ns0:namePlace>
+        <ns0:number rdf:datatype="http://www.w3.org/2001/XMLSchema#int">6</ns0:number>
+        <ns0:xCoordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2.25102575490298E0</ns0:xCoordinate>
+        <ns0:yCoordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.89487558561869E1</ns0:yCoordinate>
+      </rdf:Description>
+    </ns0:records>
+
+    <ns0:records>
+      <rdf:Description>
+        <ns0:address rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RUE VICTOR PUISEUX</ns0:address>
+        <ns0:namePlace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RUE VICTOR PUISEUX</ns0:namePlace>
+        <ns0:number rdf:datatype="http://www.w3.org/2001/XMLSchema#int">0</ns0:number>
+        <ns0:xCoordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2.25100966164905E0</ns0:xCoordinate>
+        <ns0:yCoordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.89498673485518E1</ns0:yCoordinate>
+      </rdf:Description>
+    </ns0:records>
+
+    <ns0:records>
+      <rdf:Description>
+        <ns0:address rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOULEVARD JEAN ALLEMANE</ns0:address>
+        <ns0:namePlace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Face au 46 boulevard Jean Allemane</ns0:namePlace>
+        <ns0:xCoordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2.25374976277997E0</ns0:xCoordinate>
+        <ns0:yCoordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.89518005893611E1</ns0:yCoordinate>
+      </rdf:Description>
+    </ns0:records>
+
+    <ns0:records>
+      <rdf:Description>
+        <ns0:address rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOULEVARD JEAN ALLEMANE</ns0:address>
+        <ns0:namePlace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">93 boulevard Jean Allemane</ns0:namePlace>
+        <ns0:xCoordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2.25537928857625E0</ns0:xCoordinate>
+        <ns0:yCoordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.89555518441636E1</ns0:yCoordinate>
+      </rdf:Description>
+    </ns0:records>
+
+    <ns0:records>
+      <rdf:Description>
+        <ns0:address rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOULEVARD JEAN ALLEMANE</ns0:address>
+        <ns0:namePlace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">96 boulevard Jean Allemane</ns0:namePlace>
+        <ns0:xCoordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2.25551339902701E0</ns0:xCoordinate>
+        <ns0:yCoordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.89554954838986E1</ns0:yCoordinate>
+      </rdf:Description>
+    </ns0:records>
+
+    <ns0:records>
+      <rdf:Description>
+        <ns0:address rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PAUL VAILLANT COUTURIER</ns0:address>
+        <ns0:namePlace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">71 rue Paul Vaillant Couturier</ns0:namePlace>
+        <ns0:xCoordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2.25433047524976E0</ns0:xCoordinate>
+        <ns0:yCoordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.89463402970467E1</ns0:yCoordinate>
+      </rdf:Description>
+    </ns0:records>
+
+    <ns0:records>
+      <rdf:Description>
+        <ns0:address rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RUE NOTRE DAME</ns0:address>
+        <ns0:namePlace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1 rue Notre Dame</ns0:namePlace>
+        <ns0:xCoordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2.2490323438537E0</ns0:xCoordinate>
+        <ns0:yCoordinate rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.89415800915046E1</ns0:yCoordinate>
+      </rdf:Description>
+    </ns0:records>
+
+  </rdf:Description>
+
+</rdf:RDF>

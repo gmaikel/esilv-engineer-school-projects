@@ -1,0 +1,215 @@
+<html>
+<head>
+<meta name="viewport" content="initial-scale=1.0, width=device-width" />
+<title>PROJET_WEB</title>
+<script src="https://js.api.here.com/v3/3.1/mapsjs-core.js"type="text/javascript" charset="utf-8"></script>
+<script src="https://js.api.here.com/v3/3.1/mapsjs-service.js"type="text/javascript" charset="utf-8"></script>
+<script src="https://js.api.here.com/v3/3.1/mapsjs-mapevents.js" type="text/javascript" charset="utf-8"></script>
+<script src="https://js.api.here.com/v3/3.1/mapsjs-ui.js" type="text/javascript" charset="utf-8"></script>
+<link rel="stylesheet" type="text/css"href="https://js.api.here.com/v3/3.1/mapsjs-ui.css" />
+<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600' rel='stylesheet' type='text/css'>
+<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-confirm/3.3.2/jquery-confirm.min.css">
+
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<script src="https://kit.fontawesome.com/43dcc20e7a.js" crossorigin="anonymous"></script>
+
+<style>
+    @import url("https://fonts.googleapis.com/css?family=Crimson+Text&display=swap");
+    @import url("https://fonts.googleapis.com/css?family=Work+Sans&display=swap");
+    body {
+      background: white;
+      height: 100vh;
+    }
+    .titre{
+      width: fit-content;
+      padding: 10px;
+      font-size: 35px;
+      color: #383838;
+      position: absolute;
+      top: 0;
+      right: 35%;
+      height: fit-content;
+      background: white;
+    }
+
+    .container{
+      width: auto;
+      position: absolute;
+      left: 69%;
+      top: 2.2%;
+      transform: translate(-50% , -50%);
+    }
+
+    .weatherWidget{
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+    }
+
+    button {
+    	color: white;
+      top:0%;
+    	padding: 20px 50px;
+    	border: 0;
+    	overflow: hidden;
+    	font-size: 18px;
+    	border-radius: 3px;
+    	position: relative;
+    }
+
+    button:after {
+    	content: '';
+    	position: absolute;
+    	height: 100%;
+    	width: 100%;
+    	left: 0;
+    	top: 0;
+    	background: rgba(0,0,0,.4);
+
+    	-webkit-transition: all .3s ease-out;
+    	-moz-transition: all .3s ease-out;
+    	-o-transition: all .3s ease-out;
+    	-ms-transition: all .3s ease-out;
+    	transition: all .3s ease-out;
+    }
+
+    .normal_button {
+    	background: #111d5e;
+      border-color: #111d5e;
+    }
+
+    .deuxroues_button {
+    	background: #111d5e;
+    }
+
+    .terrains_button {
+    	background: #111d5e;
+      border-color: #111d5e;
+    }
+    .squares_button {
+    	background: #111d5e;
+      border-color: #111d5e;
+    }
+
+
+    button[data-direction="down"]:hover:after {
+    	-webkit-transform: translate(0,100%);
+    	-moz-transform: translate(0,100%);
+    	-o-transform: translate(0,100%);
+    	-ms-transform: translate(0,100%);
+    	transform: translate(0,100%);
+      background: rgba(0,0,0,0);
+    }
+
+    button[data-direction="up"]:hover:after {
+    	-webkit-transform: translate(0,-100%);
+    	-moz-transform: translate(0,-100%);
+    	-o-transform: translate(0,-100%);
+    	-ms-transform: translate(0,-100%);
+    	transform: translate(0,-100%);
+      background: rgba(0,0,0,0);
+    }
+
+    button[data-direction="right"]:hover:after {
+    	-webkit-transform: translate(100%,0);
+    	-moz-transform: translate(100%,0);
+    	-o-transform: translate(100%,0);
+    	-ms-transform: translate(100%,0);
+    	transform: translate(100%,0);
+      background: rgba(0,0,0,0);
+    }
+
+    button[data-direction="left"]:hover:after {
+    	-webkit-transform: translate(-100%,0);
+    	-moz-transform: translate(-100%,0);
+    	-o-transform: translate(-100%,0);
+    	-ms-transform: translate(-100%,0);
+    	transform: translate(-100%,0);
+      background: rgba(0,0,0,0);
+    }
+
+</style>
+
+</head>
+
+<body style='margin: 0'>
+    <a href=normal><button class="normal_button" data-direction="down">Parkings   <i class="fa fa-car" aria-hidden="true"></i></button></a>
+    <a href=deuxroues><button class="deuxroues_button" data-direction="down">Two wheeler parkings  <i class="fa fa-motorcycle" aria-hidden="true"></i></button></a>
+    <a href=terrains><button class="terrains_button" data-direction="down">Outdoor Spaces  <i class="fa fa-sportball" aria-hidden="true"></i></button></a>
+    <a href=squares><button class="squares_button" data-direction="down">Squares   <i class="fa fa-tree" aria-hidden="true"></i></button></a>
+
+<div style="width: 100%; height: 83.3%" id="mapContainer"></div>
+<script>
+      var json = 
+      [
+        {id: 48, title: "Helgelandskysten", longitude: "12.63376", latitude: "66.02219"},
+        {id: 46, title: "Tysfjord", longitude: "16.50279", latitude: "68.03515"},
+        {id: 44, title: "Sledehunds-ekspedisjon", longitude: "7.53744", latitude: "3.654"},
+        {id: 43, title: "Amundsens sydpolferd", longitude: "11.38411", latitude: "62.57481"},
+        {id: 39, title: "Vikingtokt", longitude: "6.96781", latitude: "60.96335" },
+        {id: 6, title: "Tungtvann- sabotasjen", longitude: "8.49139", latitude: "59.87111"}
+      ];
+
+      // Initialize the platform object:
+      var platform = new H.service.Platform({'apikey': 'J8N7yNH4nk8HKc2e62KdxU4kEP2IpLSR45DuwzUWhHc'});
+
+	// Obtain the default map types from the platform object
+      var maptypes = platform.createDefaultLayers();
+      // Initialize a map:
+      var map = new H.Map(document.getElementById('mapContainer'), maptypes.raster.terrain.map, {zoom: 13.6, center: { lat: 48.9472096, lng: 2.2466847}});
+
+      // Enable the event system on the map instance:
+      var mapEvents = new H.mapevents.MapEvents(map);
+
+      // Add event listener:
+      map.addEventListener('tap', 
+      function(evt)
+      {
+        console.log(evt.type, evt.currentPointer.type);
+      }
+      );
+
+      // Instantiate the default behavior, providing the mapEvents object:
+      var behavior = new H.mapevents.Behavior(mapEvents);
+
+      // Create the default UI:
+      var ui = H.ui.UI.createDefault(map, maptypes);
+      
+    
+
+</script>
+
+<div>
+  <b class='titre'>ARGENTEUIL</b>
+</div>
+
+<!-- the DIV that will contain the widget -->
+<div class="weatherWidget" ></div>
+
+<script>
+   window.weatherWidgetConfig =  window.weatherWidgetConfig || [];
+   window.weatherWidgetConfig.push({
+       selector:".weatherWidget",
+       apiKey:"5JQ9YKQF3TRKFGWA4FFYQPX7K", //Sign up for your personal key
+       location:"Argenteuil", //Enter an address
+       unitGroup:"metric", //"us" or "metric"
+       forecastDays:5, //how many days forecast to show
+       title:"Argenteuil, FR", //optional title to show in the
+       showTitle:true,
+       showConditions:true
+   });
+
+   (function() {
+   var d = document, s = d.createElement('script');
+   s.src = 'https://www.visualcrossing.com/widgets/forecast-simple/weather-forecast-widget-simple.js';
+   s.setAttribute('data-timestamp', +new Date());
+   (d.head || d.body).appendChild(s);
+   })();
+</script>
+
+</body>
+</html>

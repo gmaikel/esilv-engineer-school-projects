@@ -1,0 +1,134 @@
+import numpy as np
+from copy import *
+from random import *
+import matplotlib.pyplot as plt
+import time
+
+start=time.time()
+
+I=np.array([0.635,1.996,0.812,0.244,1.909,0.813,0.914,1.951,0.156,0.014,1.642,1.96,0.624,0.893,1.649])
+T=np.array([-0.287,1.121,-0.897,0.676,1.029,-0.867,-1.012,0.856,0.759,1.075,0.293,0.888,-0.27,-1.076,0.347])
+
+dico={}
+for i in range(len(I)):
+    dico[I[i]]=T[i]
+I.sort()
+T=[dico[i] for i in I]
+
+def fT(i,a,b,c):
+    s=0
+    for n in range(c):
+        term=(a**n)*np.cos((b**n)*np.pi*i)
+        s+=term
+    return s
+
+
+A=np.arange(0.01,1,0.00001) #Précision sur a
+B=np.array([i for i in range(1,21)])
+C=np.array([i for i in range(1,21)])
+
+
+Pop=set() #liste de population
+while len(Pop)<1000: #Taille population
+    (a,b,c)=(choice(A),choice(B),choice(C)) #random - choix des valeurs aux hasards parmi les ensembles
+    Pop.add((a,b,c))
+Pop=np.array(list(Pop))
+
+def Quali(indiv): #Fonction Fitness
+    a,b,c=indiv[0],int(indiv[1]),int(indiv[2])
+    Test=[]
+    for i in I:
+        Test+=[fT(i,a,b,c)]
+    Test=np.array(Test)
+    Ecart=T-Test
+    Ecart=abs(Ecart)
+    return Ecart.max()
+
+def Tri(Pop): 
+    dico={}
+    Q=[]
+    for p in Pop:
+        a,b,c,q=p[0],p[1],p[2],p[3]
+        dico[q]=(a,b,c)
+        Q.append(q)
+    Q.sort()
+    NPop=[dico[q] for q in Q]
+    return NPop
+
+
+def Iter(Pop): #Croisements
+    Pop2=[]
+    for p in Pop:
+        a,b,c=p[0],int(p[1]),int(p[2])
+        Pop2.append((a,b,c,Quali(p)))
+    Pop3=Tri(Pop2)[0:60] #Echantillon a récolter
+
+    A=[]
+    B=[]
+    C=[]
+    for p in Pop3:
+        a,b,c=p[0],p[1],p[2]
+        A.append(a)
+        B.append(int(b))
+        C.append(int(c))
+    Pop2=[]
+    while len(Pop2)<1000: #taille population
+        (a,b,c)=(choice(A),choice(B),choice(C))
+        Pop2.append((a,b,c))
+    return np.array(list(Pop2))
+
+for k in range(5):
+    print(k)
+    Pop=Iter(Pop)
+
+Pop2=[]
+for p in Pop:
+    a,b,c=p[0],int(p[1]),int(p[2])
+    Pop2.append((a,b,c,Quali(p)))
+Pop=deepcopy(Tri(Pop2)[0:60]) #Ici on récupère les valeures les plus proches
+
+Pop2=set()
+for p in Pop:
+    Pop2.add(p)
+Pop=list(Pop2)
+
+##Affiche les approximations, on peut s'en passr y'en a beaucoup.
+##Permet de visulaiser les différentes solutions avec les solutions de réf
+for p in Pop:
+    a,b,c=p[0],int(p[1]),int(p[2])
+    print(a,b,c)
+    Test=[]
+    for i in I:
+            Test+=[fT(i,a,b,c)]
+    Test=np.array(Test)
+    plt.plot(I,Test,label="test")
+    plt.plot(I,T,label="ref")
+    plt.legend()
+    plt.show()
+
+print("Le temps d'exécution est de ", round((time.time() - start),4)," Secondes")
+# %% Test
+import math 
+val=0
+for i in range(9):
+    val=val+0.18163999999999303**i * math.cos(19**i * math.pi * 1.697)
+print(val)
+
+# %% TEST fonction
+
+I=np.array([0.635,1.996,0.812,0.244,1.909,0.813,0.914,1.951,0.156,0.014,1.642,1.96,0.624,0.893,1.649])
+T=np.array([-0.287,1.121,-0.897,0.676,1.029,-0.867,-1.012,0.856,0.759,1.075,0.293,0.888,-0.27,-1.076,0.347])
+
+dico={}
+for i in range(len(I)):
+    dico[I[i]]=T[i]
+I.sort()
+T=[dico[i] for i in I]
+
+print(I)
+print()
+print(dico[1])
+
+for k in range(5):
+    print(k)
+    Pop=Iter(Pop)

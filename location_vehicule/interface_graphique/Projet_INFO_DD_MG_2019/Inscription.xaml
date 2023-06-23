@@ -1,0 +1,32 @@
+﻿<Window x:Class="Projet_INFO_DD_MG_2019.Inscription"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Projet_INFO_DD_MG_2019"
+        mc:Ignorable="d"
+        Title="Inscription" Height="500" Width="500" MaxHeight="500" MinHeight="500" MinWidth="500" MaxWidth="500" Background="AntiqueWhite">
+    <Grid Margin="0,0,-6.4,-2.6">
+        <Label Content="Permis 2 :" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="91,295,0,0" FontSize="20" FontWeight="Regular"/>
+        <Label Content="Permis 1 :" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="91,253,0,0" FontSize="20" FontWeight="Regular"/>
+        <Label Content="Mot de passe* :" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="91,211,0,0" FontSize="20" FontWeight="Regular"/>
+        <Label Content="Idenrifiant* :" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="91,169,0,0" FontSize="20" FontWeight="Regular"/>
+        <Label Content="Numéro tel :" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="91,127,0,0" FontSize="20" FontWeight="Regular"/>
+        <Label Content="Nom Prenom* :" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="91,79,0,0" FontSize="20" FontWeight="Regular" Height="41"/>
+        <Button Content="Retour" HorizontalAlignment="Left" VerticalAlignment="Bottom" Width="70" Height="25" Margin="10,0,0,438" Click="Button_Click_1"/>
+        <TextBox x:Name="np" HorizontalAlignment="Left" Height="41" TextWrapping="Wrap"  VerticalAlignment="Top" Width="185" Margin="243,79,0,0"/>
+        <TextBox x:Name="num" HorizontalAlignment="Left" Height="37" TextWrapping="Wrap"  VerticalAlignment="Top" Width="185" Margin="243,127,0,0"/>
+        <TextBox x:Name="p2" HorizontalAlignment="Left" Height="37" TextWrapping="Wrap"  VerticalAlignment="Top" Width="185" Margin="243,295,0,0"/>
+        <TextBox x:Name="id" HorizontalAlignment="Left" Height="37" TextWrapping="Wrap"  VerticalAlignment="Top" Width="185" Margin="243,169,0,0"/>
+        <PasswordBox x:Name="mdp" HorizontalAlignment="Left" Height="37"  VerticalAlignment="Top" Width="185" Margin="243,211,0,0"/>
+        <TextBox x:Name="p1" HorizontalAlignment="Left" Height="37" TextWrapping="Wrap"  VerticalAlignment="Top" Width="185" Margin="243,253,0,0"/>
+
+        <Label Content="Inscription" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="140,10,0,0" FontSize="40" FontWeight="Bold" Width="211"/>
+
+        <Button Content="Inscrivez-vous"   Margin="243,395,72,38" FontSize="20" Click="Button_Click" />
+
+        <Label  Content="* : Ces cases sont obligatoires !" Margin="10,417,278,10" FontWeight="Black"/>
+
+
+    </Grid>
+</Window>

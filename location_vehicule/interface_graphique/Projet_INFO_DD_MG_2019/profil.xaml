@@ -1,0 +1,31 @@
+﻿<Window x:Class="Projet_INFO_DD_MG_2019.profil"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Projet_INFO_DD_MG_2019"
+        mc:Ignorable="d"
+        Title="profil" Height="538.224" Width="501.696" Background="AntiqueWhite" MinHeight="538.244" MinWidth="500" MaxHeight="538.224" MaxWidth="500">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="202*"/>
+            <ColumnDefinition Width="45*"/>
+        </Grid.ColumnDefinitions>
+        <Label x:Name="pron" Content="PROFIL" FontSize="30" FontWeight="Black" Margin="201,10,45,436.8"/>
+        <Button x:Name="ModifierProfil" Content="Modifier Profil" Margin="124,363,12,84.8" FontSize="20"  Click="Entrercode_Click" RenderTransformOrigin="0.5,0.502" />
+        <Button x:Name="smc" Content="Supprimer mon compte" Margin="124,429,12,18.8" FontSize="20" Background="Red" Click="Smc_Click"/>
+        <Button Content="Retour" HorizontalAlignment="Left" VerticalAlignment="Bottom" Width="70" Height="25" Margin="10,0,0,473.8" Click="Button_Click_1"/>
+        <Label x:Name="codep" Content="Code promo :" Margin="97,311,9,150.8" FontSize="20" />
+        <Label x:Name="cPromoC" Margin="274,311,33.6,145.8" FontSize="20" RenderTransformOrigin="0.462,0.499" Grid.ColumnSpan="2"/>
+        <Label x:Name="codep_Copy" Content="Permis C2 :" Margin="113,268,9,197.8" FontSize="20" />
+        <Label x:Name="permisC2" Margin="274,268,33.6,197.8" FontSize="20" Grid.ColumnSpan="2" />
+        <Label x:Name="codep_Copy1" Content="Permis C1 :" Margin="113,225,9,240.8" FontSize="20" />
+        <Label x:Name="permisC1" Margin="274,225,33.6,240.8" FontSize="20" Grid.ColumnSpan="2"/>
+        <Label x:Name="codep_Copy2" Content="Numéro de Tel :" Margin="70,182,9,283.8" FontSize="20" />
+        <Label x:Name="numTelC" Margin="274,182,33.6,283.8" FontSize="20" Grid.ColumnSpan="2" />
+        <Label x:Name="codep_Copy3" Content="Nom / Prénom :" Margin="70,139,9,326.8" FontSize="20" />
+        <Label x:Name="nomPrenomC" Margin="274,139,33.6,326.8" FontSize="20" Grid.ColumnSpan="2" />
+        <Label x:Name="codep_Copy4" Content="Identifiant Client :" Margin="57,96,9,369.8" FontSize="20" />
+        <Label x:Name="idC" Margin="274,96,33.6,369.8" FontSize="20" Content="" Grid.ColumnSpan="2"  />
+    </Grid>
+</Window>

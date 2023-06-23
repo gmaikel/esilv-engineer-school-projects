@@ -1,0 +1,305 @@
+<html>
+<head>
+<meta name="viewport" content="initial-scale=1.0, width=device-width" />
+<title>PROJET_WEB</title>
+<script src="https://js.api.here.com/v3/3.1/mapsjs-core.js"type="text/javascript" charset="utf-8"></script>
+<script src="https://js.api.here.com/v3/3.1/mapsjs-service.js"type="text/javascript" charset="utf-8"></script>
+<script src="https://js.api.here.com/v3/3.1/mapsjs-mapevents.js" type="text/javascript" charset="utf-8"></script>
+<script src="https://js.api.here.com/v3/3.1/mapsjs-ui.js" type="text/javascript" charset="utf-8"></script>
+<link rel="stylesheet" type="text/css"href="https://js.api.here.com/v3/3.1/mapsjs-ui.css" />
+<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600' rel='stylesheet' type='text/css'>
+<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-confirm/3.3.2/jquery-confirm.min.css">
+
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<script src="https://kit.fontawesome.com/43dcc20e7a.js" crossorigin="anonymous"></script>
+
+<style>
+    @import url("https://fonts.googleapis.com/css?family=Crimson+Text&display=swap");
+    @import url("https://fonts.googleapis.com/css?family=Work+Sans&display=swap");
+    body {
+      background: white;
+      height: 100vh;
+    }
+    .titre{
+      width: fit-content;
+      padding: 10px;
+      font-size: 35px;
+      color: #383838;
+      position: absolute;
+      top: 0;
+      right: 35%;
+      height: fit-content;
+      background: white;
+    }
+
+    .container{
+      width: auto;
+      position: absolute;
+      left: 69%;
+      top: 2.2%;
+      transform: translate(-50% , -50%);
+    }
+
+    button {
+    	color: white;
+      top:0%;
+    	padding: 20px 50px;
+    	border: 0;
+    	overflow: hidden;
+    	font-size: 18px;
+    	border-radius: 3px;
+    	position: relative;
+    }
+
+    button:after {
+    	content: '';
+    	position: absolute;
+    	height: 100%;
+    	width: 100%;
+    	left: 0;
+    	top: 0;
+    	background: rgba(0,0,0,.4);
+
+    	-webkit-transition: all .3s ease-out;
+    	-moz-transition: all .3s ease-out;
+    	-o-transition: all .3s ease-out;
+    	-ms-transition: all .3s ease-out;
+    	transition: all .3s ease-out;
+    }
+
+    .normal_button {
+    	background: #111d5e;
+      border-color: #111d5e;
+    }
+
+    .home_button{
+      background: #111d5e;
+      border-color: #111d5e;
+      top: 0;
+      right: 0;
+      margin-top: 0px;
+      margin-right: 0px;
+      position: absolute;
+    }
+
+    .deuxroues_button {
+    	background: #111d5e;
+    }
+
+    .terrains_button {
+    	background: #111d5e;
+      border-color: #111d5e;
+    }
+    .squares_button {
+    	background: #111d5e;
+      border-color: #111d5e;
+    }
+
+
+
+    button[data-direction="down"]:hover:after {
+    	-webkit-transform: translate(0,100%);
+    	-moz-transform: translate(0,100%);
+    	-o-transform: translate(0,100%);
+    	-ms-transform: translate(0,100%);
+    	transform: translate(0,100%);
+      background: rgba(0,0,0,0);
+    }
+
+    button[data-direction="up"]:hover:after {
+    	-webkit-transform: translate(0,-100%);
+    	-moz-transform: translate(0,-100%);
+    	-o-transform: translate(0,-100%);
+    	-ms-transform: translate(0,-100%);
+    	transform: translate(0,-100%);
+      background: rgba(0,0,0,0);
+    }
+
+    button[data-direction="right"]:hover:after {
+    	-webkit-transform: translate(100%,0);
+    	-moz-transform: translate(100%,0);
+    	-o-transform: translate(100%,0);
+    	-ms-transform: translate(100%,0);
+    	transform: translate(100%,0);
+      background: rgba(0,0,0,0);
+    }
+
+    button[data-direction="left"]:hover:after {
+    	-webkit-transform: translate(-100%,0);
+    	-moz-transform: translate(-100%,0);
+    	-o-transform: translate(-100%,0);
+    	-ms-transform: translate(-100%,0);
+    	transform: translate(-100%,0);
+      background: rgba(0,0,0,0);
+    }
+
+</style>
+
+</head>
+
+<body style='margin: 0'>
+    <a href=normal><button class="normal_button" data-direction="down">Parkings   <i class="fa fa-car" aria-hidden="true"></i></button></a>
+    <a href=deuxroues><button class="deuxroues_button" data-direction="down">Parkings 2 roues  <i class="fa fa-motorcycle" aria-hidden="true"></i></button></a>
+    <a href=terrains><button class="terrains_button" data-direction="down">Terrains  <i class="fa fa-futbol-o" aria-hidden="true"></i></button></a>
+    <a href=squares><button class="squares_button" data-direction="down">Squares   <i class="fa fa-tree" aria-hidden="true"></i></button></a>
+
+<div style="width: 100%; height: 93.5%;" id="mapContainer"></div>
+<script>
+
+      var data = {
+  "@context": {
+    "@vocab": "http://www.semanticweb.org/syrin/ontologies/2022/2/untitled-ontology-11#",
+    "@base": "http://www.semanticweb.org/syrin/ontologies/2022/2/untitled-ontology-11/",
+    "namePlace": "namePlace",
+    "address": "address",
+    "xCoordinate": "xCoordinate",
+    "yCoordinate": "yCoordinate"
+
+  },
+
+
+  "records": [
+
+    {
+      "namePlace": "Provence",
+      "address": "MAIL STENDHAL",
+      "xCoordinate": 2.2238271567350498,
+      "yCoordinate": 48.953691501771097
+    },
+    {
+      "namePlace": "TSP HENRI WALLON 1",
+      "address": "ALLEE HENRI WALLON",
+      "xCoordinate": 2.2249459679972499,
+      "yCoordinate": 48.951267803072398
+    },
+    {
+      "namePlace": "TSP HENRI WALLON 2",
+      "address": "ALLEE HENRI WALLON",
+      "xCoordinate": 2.2246356261177298,
+      "yCoordinate": 48.950814288464898
+    },
+    {
+      "namePlace": "TSP MARTIN LUTHER KING",
+      "address": "25 BOULEVARD YOURI GAGARINE",
+      "xCoordinate": 2.2524589621564299,
+      "yCoordinate": 48.961147095417402
+    },
+    {
+      "namePlace": "TSP PARC DES BERGES",
+      "address": "BOULEVARD HELOISE",
+      "xCoordinate": 2.25475240689088,
+      "yCoordinate": 48.941831097947301
+    },
+    {
+      "namePlace": "TSP ERNEST BRAY",
+      "address": "2-4  RUE ERNEST BRAY",
+      "xCoordinate": 2.2496481803448201,
+      "yCoordinate": 48.941979120610902
+    },
+    {
+      "namePlace": "TSP JARDIN DE LA BERIONNE",
+      "address": "RUE DE LA BERIONNE",
+      "xCoordinate": 2.2215436976733298,
+      "yCoordinate": 48.952089619223003
+    },
+    {
+      "namePlace": "TSP JARDIN DE LA HAIE NORMANDE",
+      "address": "ALLEE GUY DE MAUPASSANT",
+      "xCoordinate": 2.2212776885514001,
+      "yCoordinate": 48.953597709459501
+    },
+    {
+      "namePlace": "TSP PARC MAURICE AUDIN",
+      "address": "6 ALLEE ROMAIN ROLLAND",
+      "xCoordinate": 2.23143927833175,
+      "yCoordinate": 48.952983266885397
+    },
+    {
+      "namePlace": "TSP PLACETTE DIDEROT",
+      "address": "PLACE DENIS DIDEROT",
+      "xCoordinate": 2.2267329892868699,
+      "yCoordinate": 48.953778027585301
+    },
+    {
+      "namePlace": "TSP PLACETTE PAUL ELUARD",
+      "address": "ALLEE PAUL ELUARD",
+      "xCoordinate": 2.2294851245851799,
+      "yCoordinate": 48.9550900739453
+    },
+    {
+      "namePlace": "TSP SQUARE DE LA COLOMBES",
+      "address": "2 RUE DE RETHONDES",
+      "xCoordinate": 2.23125888045303,
+      "yCoordinate": 48.946512579162601
+    }
+
+  ]
+}
+
+       // Initialize the platform object:
+      const platform = new H.service.Platform({
+        'apikey': 'J8N7yNH4nk8HKc2e62KdxU4kEP2IpLSR45DuwzUWhHc'
+      });
+    	// Obtain the default map types from the platform object
+      const defaultMapLayers = platform.createDefaultLayers();
+      // Initialize a map:
+      const map = new H.Map(
+        document.getElementById('mapContainer'),
+        defaultMapLayers.raster.terrain.map,
+        {
+          zoom: 13.6,
+          center: { lat: 48.9472096, lng: 2.2466847 }
+        });
+
+      // Enable the event system on the map instance:
+      const mapEvents = new H.mapevents.MapEvents(map);
+      const behavior = new H.mapevents.Behavior(mapEvents);
+      const ui = H.ui.UI.createDefault(map, defaultMapLayers);
+
+      function addMarkerToGroup(group, coordinate, html) 
+      {
+        var marker = new H.map.Marker(coordinate);
+        marker.setData(html);
+        group.addObject(marker);
+      }
+
+      function evt (evt)
+      {
+        var bubble = new H.ui.InfoBubble(evt.target.getGeometry(), { content: evt.target.getData() });
+        // show info bubble
+        ui.addBubble(bubble);
+      }
+
+      function addInfoBubble(map, name, lati, long, address, capacity)
+      {
+        var group = new H.map.Group();
+        map.addObject(group);
+        // add 'tap' event listener, that opens info bubble, to the group
+        group.addEventListener('tap', evt, false);
+        
+        addMarkerToGroup(group, {lat: lati, lng: long},
+        `<div>Name: <a><b>${name}</b></a></div>` +
+        `<div>Address: <br /><b>${address}</b></div>`+
+        `<div>Capacity: <a><b>${capacity}</b></a></div>`);
+      }
+
+      for (var i=0; i<data.records.length; i++)
+      {
+        addInfoBubble(map, data.records[i].namePlace, data.records[i].yCoordinate, data.records[i].xCoordinate, data.records[i].address, data.records[i].number)
+      }
+
+  </script>
+  <div>
+    <b class='titre'>ARGENTEUIL</b>
+  </div>
+
+  <div>
+    <a href="http://127.0.0.1:5000/"><button class="home_button" data-direction="down">Home   <i class="fa fa-map" aria-hidden="true"></i></button></a>
+  </div>
+
+</body>
+</html>

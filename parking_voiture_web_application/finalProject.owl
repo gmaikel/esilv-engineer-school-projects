@@ -1,0 +1,743 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/syrin/ontologies/2022/2/untitled-ontology-11"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/syrin/ontologies/2022/2/untitled-ontology-11">
+    <Prefix name="" IRI="http://www.semanticweb.org/syrin/ontologies/2022/2/untitled-ontology-11"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#City"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Normal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OutdoorSpace"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Parking"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Place"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SportField"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Square"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Travelers"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TwoWheeler"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasBeenIn"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isComingFrom"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isGoingTo"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isIn"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#address"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#age"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#name"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#nameCity"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#namePlace"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#number"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#xCoordinate"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#yCoordinate"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Argenteuil"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Bapaume"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Centre_aquatique"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Enghien"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Espace_Paul_Eluard"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Europe"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Figuier_Blanc"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Jardin_des_Justes"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Marie"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Parc_Mirabeau"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Provence"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Stade_du_Marais"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#TSP_ERNEST_BRAY"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#TSP_HENRI_WALLON_1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#TSP_PARC_DES_BERGES"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Thomas"/>
+    </Declaration>
+    <EquivalentClasses>
+        <Class IRI="#Place"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isIn"/>
+            <Class IRI="#City"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Travelers"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasBeenIn"/>
+            <Class IRI="#Place"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Travelers"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isGoingTo"/>
+            <Class IRI="#Place"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <SubClassOf>
+        <Class IRI="#Normal"/>
+        <Class IRI="#Parking"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OutdoorSpace"/>
+        <Class IRI="#Place"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Parking"/>
+        <Class IRI="#Place"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SportField"/>
+        <Class IRI="#OutdoorSpace"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Square"/>
+        <Class IRI="#OutdoorSpace"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TwoWheeler"/>
+        <Class IRI="#Parking"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#City"/>
+        <Class IRI="#Place"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#City"/>
+        <Class IRI="#Travelers"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#OutdoorSpace"/>
+        <Class IRI="#Parking"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Place"/>
+        <Class IRI="#Travelers"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#SportField"/>
+        <Class IRI="#Square"/>
+    </DisjointClasses>
+    <ClassAssertion>
+        <Class IRI="#City"/>
+        <NamedIndividual IRI="#Argenteuil"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Normal"/>
+        <NamedIndividual IRI="#Bapaume"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#TwoWheeler"/>
+        <NamedIndividual IRI="#Centre_aquatique"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#City"/>
+        <NamedIndividual IRI="#Enghien"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Square"/>
+        <NamedIndividual IRI="#Espace_Paul_Eluard"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Normal"/>
+        <NamedIndividual IRI="#Europe"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#TwoWheeler"/>
+        <NamedIndividual IRI="#Figuier_Blanc"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Square"/>
+        <NamedIndividual IRI="#Jardin_des_Justes"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Travelers"/>
+        <NamedIndividual IRI="#Marie"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Square"/>
+        <NamedIndividual IRI="#Parc_Mirabeau"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Normal"/>
+        <NamedIndividual IRI="#Provence"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#TwoWheeler"/>
+        <NamedIndividual IRI="#Stade_du_Marais"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SportField"/>
+        <NamedIndividual IRI="#TSP_ERNEST_BRAY"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SportField"/>
+        <NamedIndividual IRI="#TSP_HENRI_WALLON_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SportField"/>
+        <NamedIndividual IRI="#TSP_PARC_DES_BERGES"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Travelers"/>
+        <NamedIndividual IRI="#Thomas"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isIn"/>
+        <NamedIndividual IRI="#Bapaume"/>
+        <NamedIndividual IRI="#Argenteuil"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isIn"/>
+        <NamedIndividual IRI="#Centre_aquatique"/>
+        <NamedIndividual IRI="#Argenteuil"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isIn"/>
+        <NamedIndividual IRI="#Espace_Paul_Eluard"/>
+        <NamedIndividual IRI="#Argenteuil"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isIn"/>
+        <NamedIndividual IRI="#Europe"/>
+        <NamedIndividual IRI="#Argenteuil"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isIn"/>
+        <NamedIndividual IRI="#Figuier_Blanc"/>
+        <NamedIndividual IRI="#Argenteuil"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isIn"/>
+        <NamedIndividual IRI="#Jardin_des_Justes"/>
+        <NamedIndividual IRI="#Argenteuil"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasBeenIn"/>
+        <NamedIndividual IRI="#Marie"/>
+        <NamedIndividual IRI="#Jardin_des_Justes"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isGoingTo"/>
+        <NamedIndividual IRI="#Marie"/>
+        <NamedIndividual IRI="#TSP_ERNEST_BRAY"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isIn"/>
+        <NamedIndividual IRI="#Parc_Mirabeau"/>
+        <NamedIndividual IRI="#Argenteuil"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isIn"/>
+        <NamedIndividual IRI="#Provence"/>
+        <NamedIndividual IRI="#Argenteuil"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isIn"/>
+        <NamedIndividual IRI="#Stade_du_Marais"/>
+        <NamedIndividual IRI="#Argenteuil"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isIn"/>
+        <NamedIndividual IRI="#TSP_ERNEST_BRAY"/>
+        <NamedIndividual IRI="#Argenteuil"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isIn"/>
+        <NamedIndividual IRI="#TSP_HENRI_WALLON_1"/>
+        <NamedIndividual IRI="#Argenteuil"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isIn"/>
+        <NamedIndividual IRI="#TSP_PARC_DES_BERGES"/>
+        <NamedIndividual IRI="#Argenteuil"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasBeenIn"/>
+        <NamedIndividual IRI="#Thomas"/>
+        <NamedIndividual IRI="#Parc_Mirabeau"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasBeenIn"/>
+        <NamedIndividual IRI="#Thomas"/>
+        <NamedIndividual IRI="#TSP_ERNEST_BRAY"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isGoingTo"/>
+        <NamedIndividual IRI="#Thomas"/>
+        <NamedIndividual IRI="#TSP_HENRI_WALLON_1"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nameCity"/>
+        <NamedIndividual IRI="#Argenteuil"/>
+        <Literal>Argenteuil</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#address"/>
+        <NamedIndividual IRI="#Bapaume"/>
+        <Literal>place des Canuts</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#namePlace"/>
+        <NamedIndividual IRI="#Bapaume"/>
+        <Literal>Bapaume</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#number"/>
+        <NamedIndividual IRI="#Bapaume"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">303</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#xCoordinate"/>
+        <NamedIndividual IRI="#Bapaume"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">2.22483113365953</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#yCoordinate"/>
+        <NamedIndividual IRI="#Bapaume"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">48.953435975441998</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#address"/>
+        <NamedIndividual IRI="#Centre_aquatique"/>
+        <Literal>RUE DU NORD</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#namePlace"/>
+        <NamedIndividual IRI="#Centre_aquatique"/>
+        <Literal>Centre aquatique</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#number"/>
+        <NamedIndividual IRI="#Centre_aquatique"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">18</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#xCoordinate"/>
+        <NamedIndividual IRI="#Centre_aquatique"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">2.25611200399616</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#yCoordinate"/>
+        <NamedIndividual IRI="#Centre_aquatique"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">48.962301080941501</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nameCity"/>
+        <NamedIndividual IRI="#Enghien"/>
+        <Literal>Enghien</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#address"/>
+        <NamedIndividual IRI="#Espace_Paul_Eluard"/>
+        <Literal>Allée Paul Eluard</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#namePlace"/>
+        <NamedIndividual IRI="#Espace_Paul_Eluard"/>
+        <Literal>Espace Paul Eluard</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#xCoordinate"/>
+        <NamedIndividual IRI="#Espace_Paul_Eluard"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">2.22848702982919</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#yCoordinate"/>
+        <NamedIndividual IRI="#Espace_Paul_Eluard"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">48.955307501720696</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#address"/>
+        <NamedIndividual IRI="#Europe"/>
+        <Literal>5 Rue de la Berionne</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#namePlace"/>
+        <NamedIndividual IRI="#Europe"/>
+        <Literal>Europe</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#number"/>
+        <NamedIndividual IRI="#Europe"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">471</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#xCoordinate"/>
+        <NamedIndividual IRI="#Europe"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">2.22595555490064</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#yCoordinate"/>
+        <NamedIndividual IRI="#Europe"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">48.952724539632698</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#address"/>
+        <NamedIndividual IRI="#Figuier_Blanc"/>
+        <Literal>RUE DE L  ABBE FLEURY</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#namePlace"/>
+        <NamedIndividual IRI="#Figuier_Blanc"/>
+        <Literal>Figuier Blanc</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#number"/>
+        <NamedIndividual IRI="#Figuier_Blanc"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">12</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#xCoordinate"/>
+        <NamedIndividual IRI="#Figuier_Blanc"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">2.24720245501487</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#yCoordinate"/>
+        <NamedIndividual IRI="#Figuier_Blanc"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">48.943798419406498</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#address"/>
+        <NamedIndividual IRI="#Jardin_des_Justes"/>
+        <Literal>Rue des Provençaux</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#namePlace"/>
+        <NamedIndividual IRI="#Jardin_des_Justes"/>
+        <Literal>Jardin des Justes</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#xCoordinate"/>
+        <NamedIndividual IRI="#Jardin_des_Justes"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">2.28790600356744</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#yCoordinate"/>
+        <NamedIndividual IRI="#Jardin_des_Justes"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">48.952245151133802</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#age"/>
+        <NamedIndividual IRI="#Marie"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">22</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#Marie"/>
+        <Literal>Marie</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#address"/>
+        <NamedIndividual IRI="#Parc_Mirabeau"/>
+        <Literal>Avenue du Parc</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#namePlace"/>
+        <NamedIndividual IRI="#Parc_Mirabeau"/>
+        <Literal>Parc Mirabeau</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#xCoordinate"/>
+        <NamedIndividual IRI="#Parc_Mirabeau"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">2.22814431446347</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#yCoordinate"/>
+        <NamedIndividual IRI="#Parc_Mirabeau"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">48.9357558855326</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#address"/>
+        <NamedIndividual IRI="#Provence"/>
+        <Literal>5 place de la Comune de Paris</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#namePlace"/>
+        <NamedIndividual IRI="#Provence"/>
+        <Literal>Provence</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#number"/>
+        <NamedIndividual IRI="#Provence"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">145</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#xCoordinate"/>
+        <NamedIndividual IRI="#Provence"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">2.23123668218402</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#yCoordinate"/>
+        <NamedIndividual IRI="#Provence"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">48.954372008382997</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#address"/>
+        <NamedIndividual IRI="#Stade_du_Marais"/>
+        <Literal>AVENUE DU PARC</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#namePlace"/>
+        <NamedIndividual IRI="#Stade_du_Marais"/>
+        <Literal>STADE DU MARAIS</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#number"/>
+        <NamedIndividual IRI="#Stade_du_Marais"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">6</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#xCoordinate"/>
+        <NamedIndividual IRI="#Stade_du_Marais"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">2.2282394693447</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#yCoordinate"/>
+        <NamedIndividual IRI="#Stade_du_Marais"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">48.936030715801898</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#address"/>
+        <NamedIndividual IRI="#TSP_ERNEST_BRAY"/>
+        <Literal>2-4 RUE ERNEST BRAY</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#namePlace"/>
+        <NamedIndividual IRI="#TSP_ERNEST_BRAY"/>
+        <Literal>TSP ERNEST BRAY</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#xCoordinate"/>
+        <NamedIndividual IRI="#TSP_ERNEST_BRAY"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">2.24964818034482</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#yCoordinate"/>
+        <NamedIndividual IRI="#TSP_ERNEST_BRAY"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">48.941979120610902</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#address"/>
+        <NamedIndividual IRI="#TSP_HENRI_WALLON_1"/>
+        <Literal>ALLEE HENRI WALLON</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#namePlace"/>
+        <NamedIndividual IRI="#TSP_HENRI_WALLON_1"/>
+        <Literal>TSP HENRI WALLON 1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#xCoordinate"/>
+        <NamedIndividual IRI="#TSP_HENRI_WALLON_1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">2.22494596799725</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#yCoordinate"/>
+        <NamedIndividual IRI="#TSP_HENRI_WALLON_1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">48.951267803072398</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#address"/>
+        <NamedIndividual IRI="#TSP_PARC_DES_BERGES"/>
+        <Literal>BOULEVARD HELOISE</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#namePlace"/>
+        <NamedIndividual IRI="#TSP_PARC_DES_BERGES"/>
+        <Literal>TSP PARC DES BERGES</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#xCoordinate"/>
+        <NamedIndividual IRI="#TSP_PARC_DES_BERGES"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">2.25475240689088</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#yCoordinate"/>
+        <NamedIndividual IRI="#TSP_PARC_DES_BERGES"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">48.941831097947301</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#age"/>
+        <NamedIndividual IRI="#Thomas"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">18</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#Thomas"/>
+        <Literal>Thomas</Literal>
+    </DataPropertyAssertion>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="#isIn"/>
+    </TransitiveObjectProperty>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasBeenIn"/>
+        <Class IRI="#Travelers"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isComingFrom"/>
+        <Class IRI="#Travelers"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isGoingTo"/>
+        <Class IRI="#Travelers"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isIn"/>
+        <Class IRI="#Place"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasBeenIn"/>
+        <Class IRI="#Place"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isComingFrom"/>
+        <Class IRI="#Place"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isGoingTo"/>
+        <Class IRI="#Place"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isIn"/>
+        <Class IRI="#City"/>
+    </ObjectPropertyRange>
+    <DataPropertyDomain>
+        <DataProperty IRI="#address"/>
+        <Class IRI="#Place"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#age"/>
+        <Class IRI="#Travelers"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#name"/>
+        <Class IRI="#Travelers"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#nameCity"/>
+        <Class IRI="#City"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#namePlace"/>
+        <Class IRI="#Place"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#number"/>
+        <Class IRI="#Parking"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#xCoordinate"/>
+        <Class IRI="#Place"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#yCoordinate"/>
+        <Class IRI="#Place"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#address"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#age"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#name"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#nameCity"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#namePlace"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#number"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#xCoordinate"/>
+        <Datatype abbreviatedIRI="xsd:decimal"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#yCoordinate"/>
+        <Datatype abbreviatedIRI="xsd:decimal"/>
+    </DataPropertyRange>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->

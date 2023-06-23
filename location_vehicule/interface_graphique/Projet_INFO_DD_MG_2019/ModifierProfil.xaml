@@ -1,0 +1,23 @@
+﻿<Window x:Class="Projet_INFO_DD_MG_2019.ModifierProfil"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Projet_INFO_DD_MG_2019"
+        mc:Ignorable="d"
+        Title="ModifierProfil" Height="450" Width="800" MaxHeight="450" MinHeight="450" MaxWidth="800" MinWidth="800" Background="AntiqueWhite">
+    <Grid>
+        <Label Content="Modifiez votre profil :" HorizontalAlignment="Left" Margin="275,19,0,0" VerticalAlignment="Top" Height="39" Width="250" FontSize="22" FontWeight="Bold"/>
+        <Label x:Name="codep" Content="Code promo :" Margin="222,283,436.6,90" FontSize="20" />
+        <TextBox x:Name="cPromoC" Margin="372,283,198.6,99" RenderTransformOrigin="0.462,0.499"  />
+        <Label x:Name="codep_Copy" Content="Permis C2 :" Margin="238,240,436.6,137" FontSize="20" />
+        <TextBox x:Name="permisC2" Margin="372,240,198.6,142" RenderTransformOrigin="0.462,0.499" />
+        <Label x:Name="codep_Copy1" Content="Permis C1 :" Margin="238,197,436.6,180" FontSize="20" />
+        <TextBox x:Name="permisC1" Margin="372,197,198.6,185" RenderTransformOrigin="0.462,0.499"/>
+        <Label x:Name="codep_Copy2" Content="Numéro de Tel :" Margin="195,154,436.6,223" FontSize="20" />
+        <TextBox x:Name="numTelC" Margin="372,154,198.6,228" FontSize="20" RenderTransformOrigin="0.462,0.499"  />
+        <Button Content="Actualiser le profil" HorizontalAlignment="Left" Margin="483,352,0,0" VerticalAlignment="Top" Width="223" Height="38" FontSize="14" Click="Actualiser"/>
+        <Button Content="Modifier mot de passe" HorizontalAlignment="Left" Margin="123,352,0,0" VerticalAlignment="Top" Width="190" Height="38" FontSize="14" Click="ModifierMdp" />
+
+    </Grid>
+</Window>

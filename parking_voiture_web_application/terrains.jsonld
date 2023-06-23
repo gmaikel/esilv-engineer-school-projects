@@ -1,0 +1,89 @@
+{
+  "@context": {
+    "@vocab": "http://www.semanticweb.org/syrin/ontologies/2022/2/untitled-ontology-11#",
+    "@base": "http://www.semanticweb.org/syrin/ontologies/2022/2/untitled-ontology-11/",
+    "namePlace": "namePlace",
+    "address": "address",
+    "xCoordinate": "xCoordinate",
+    "yCoordinate": "yCoordinate"
+
+  },
+
+
+  "records": [
+
+    {
+      "namePlace": "Provence",
+      "address": "MAIL STENDHAL",
+      "xCoordinate": 2.2238271567350498,
+      "yCoordinate": 48.953691501771097
+    },
+    {
+      "namePlace": "TSP HENRI WALLON 1",
+      "address": "ALLEE HENRI WALLON",
+      "xCoordinate": 2.2249459679972499,
+      "yCoordinate": 48.951267803072398
+    },
+    {
+      "namePlace": "TSP HENRI WALLON 2",
+      "address": "ALLEE HENRI WALLON",
+      "xCoordinate": 2.2246356261177298,
+      "yCoordinate": 48.950814288464898
+    },
+    {
+      "namePlace": "TSP MARTIN LUTHER KING",
+      "address": "25 BOULEVARD YOURI GAGARINE",
+      "xCoordinate": 2.2524589621564299,
+      "yCoordinate": 48.961147095417402
+    },
+    {
+      "namePlace": "TSP PARC DES BERGES",
+      "address": "BOULEVARD HELOISE",
+      "xCoordinate": 2.25475240689088,
+      "yCoordinate": 48.941831097947301
+    },
+    {
+      "namePlace": "TSP ERNEST BRAY",
+      "address": "2-4  RUE ERNEST BRAY",
+      "xCoordinate": 2.2496481803448201,
+      "yCoordinate": 48.941979120610902
+    },
+    {
+      "namePlace": "TSP JARDIN DE LA BERIONNE",
+      "address": "RUE DE LA BERIONNE",
+      "xCoordinate": 2.2215436976733298,
+      "yCoordinate": 48.952089619223003
+    },
+    {
+      "namePlace": "TSP JARDIN DE LA HAIE NORMANDE",
+      "address": "ALLEE GUY DE MAUPASSANT",
+      "xCoordinate": 2.2212776885514001,
+      "yCoordinate": 48.953597709459501
+    },
+    {
+      "namePlace": "TSP PARC MAURICE AUDIN",
+      "address": "6 ALLEE ROMAIN ROLLAND",
+      "xCoordinate": 2.23143927833175,
+      "yCoordinate": 48.952983266885397
+    },
+    {
+      "namePlace": "TSP PLACETTE DIDEROT",
+      "address": "PLACE DENIS DIDEROT",
+      "xCoordinate": 2.2267329892868699,
+      "yCoordinate": 48.953778027585301
+    },
+    {
+      "namePlace": "TSP PLACETTE PAUL ELUARD",
+      "address": "ALLEE PAUL ELUARD",
+      "xCoordinate": 2.2294851245851799,
+      "yCoordinate": 48.9550900739453
+    },
+    {
+      "namePlace": "TSP SQUARE DE LA COLOMBES",
+      "address": "2 RUE DE RETHONDES",
+      "xCoordinate": 2.23125888045303,
+      "yCoordinate": 48.946512579162601
+    }
+
+  ]
+}

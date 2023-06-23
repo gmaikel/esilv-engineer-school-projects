@@ -1,0 +1,16 @@
+﻿<Window x:Class="Projet_INFO_DD_MG_2019.idexisteconnexion"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Projet_INFO_DD_MG_2019"
+        mc:Ignorable="d"
+        Title="idexisteconnexion" Height="191.417" Width="649.089" MaxHeight="191.417" MinHeight="191.417" MaxWidth="649.089" MinWidth="649.089" Background="AntiqueWhite">
+    <Grid Margin="0,0,3.4,3.2">
+        <Label Content="Cet identifiant existe dèjà !" HorizontalAlignment="Left" Margin="184,5,0,92.4" FontSize="20" FontWeight="Bold" Width="287"/>
+        <Button x:Name="choisirautreid" Content="Choisir un autre identifiant" FontSize="20" Margin="37,62,350,48.4" Click="Choisirautreid_Click"/>
+        <Button x:Name="retourconnexion" Content="Connexion" FontSize="20" Margin="336,62,35,48.4" Click="Retourconnexion_Click"/>
+
+
+    </Grid>
+</Window>

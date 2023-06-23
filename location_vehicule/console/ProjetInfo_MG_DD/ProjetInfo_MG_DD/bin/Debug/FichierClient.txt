@@ -1,0 +1,4 @@
+0;Donatien;Dufort;donn;0;True;False;False;True
+1;Michel;Truc;trutruc;0;True;False;False;False
+2;Machin;Truc;fhhf;0;True;False;False;False
+3;maikel;gali;123456;0;True;False;True;False
